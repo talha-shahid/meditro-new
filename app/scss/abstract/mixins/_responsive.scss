@@ -1,0 +1,71 @@
+// Media Query
+@mixin respond($breakpoint) {
+    @if($breakpoint=="phone") {
+        @media only screen and (max-width: 575px) {
+            @content;
+        }
+    }
+    @if($breakpoint=="phone-land") {
+        @media only screen and (max-width: 767px) {
+            @content;
+        }
+    }
+    @if($breakpoint=="tab-port") {
+        @media only screen and (max-width: 991px) {
+            @content;
+        }
+    }
+	@if($breakpoint=="tab-port-min") {
+        @media only screen and (min-width: 991px) {
+            @content;
+        }
+    }
+    @if($breakpoint=="tab-land") {
+        @media only screen and (max-width: 1199px) {
+            @content;
+        }
+    }
+	@if($breakpoint=="tab-land-min") {
+        @media only screen and (min-width: 1199px) {
+            @content;
+        }
+    }
+	@if($breakpoint=="laptop-small") {
+        @media only screen and (max-width: 1380px) {
+            @content;
+        }
+    }
+	@if($breakpoint=="laptop") {
+        @media only screen and (max-width: 1680px) {
+            @content;
+        }
+    }
+    @if ($breakpoint=="desktop") {
+        @media only screen and (min-width: 1200px) {
+            @content;
+        }
+    }
+    @if($breakpoint=="big-desktop") {
+        @media only screen and (min-width: 1800px) {
+            @content;
+        }
+    }
+}
+//don't use it untill you need this too much
+@mixin custommq($min: null, $max: null) {
+    @if ($min !=null and $max !=null) {
+        @media only screen and (min-width: $min) and (max-width: $max) {
+            @content;
+        }
+    }
+    @if ($min==null and $max !=null) {
+        @media only screen and (max-width: $max) {
+            @content;
+        }
+    }
+    @if ($min !=null and $max==null) {
+        @media only screen and (min-width: $min) {
+            @content;
+        }
+    }
+}

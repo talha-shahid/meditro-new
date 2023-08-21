@@ -1,0 +1,398 @@
+/* ==================
+	8.4 Appointment
+=================== */
+.account-wraper1{
+    padding-bottom: 100px;
+	.appointment-inner{
+		background-color: lighten($primary,40);
+		border-radius:40px;
+		position: relative;
+		z-index: 1;
+	}
+	@include respond('phone-land'){
+		background-color: lighten($primary,40);
+	}
+	
+	.pt-img1{
+		top: 100px;
+		left: 70px;
+		@include respond('tab-port'){
+			top: 190px;
+			left: 10px;
+		}
+		@include respond('tab-land'){
+			top: 50px;
+			left: 50px;
+		}
+	}
+	.pt-img2{
+		left: -90px;
+		bottom: 150px;
+		@include respond('tab-port'){
+			left: -60px;
+			bottom: 50px;
+		}
+		@include respond('tab-land'){
+			left: -60px;
+			bottom: -40px;
+		}
+	}
+	.pt-img3{
+		right: -70px;
+		top: 50px;
+		@include respond('laptop'){
+			right: 20px;
+			top: -30px;
+		}
+	}
+	.pt-img4{
+		right: -40px;
+		bottom: 150px;
+		@include respond('laptop'){
+			right: 30px;
+			bottom: -30px;
+		}
+	}
+	@include respond('tab-land'){
+		padding-bottom: 70px;
+	}
+	@include respond('tab-port'){
+		padding-bottom: 50px;
+	}
+	@include respond('phone-land'){
+		padding-bottom: 0;
+	}
+	@include respond('phone'){
+		.container-fluid{
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+.form-wraper{
+	.form-group {
+		margin-bottom: 20px;
+	}
+	.form-select.bootstrap-select{
+		padding: 0;
+		border: 0;
+
+		.dropdown-toggle {
+			border: 1px solid;
+			border-color: rgba($primary,0.3);
+			border-radius: $border-radius-base;
+			height: 60px;
+			font-weight: 500;
+			font-size: 16px;
+			color: #444;
+			padding: 18px 25px;
+			margin-top: 0;
+				
+			&:after{
+				content: "\f107";
+				position: absolute;
+				top: 50%;
+				font-family: 'Line Awesome Free';
+				right: 20px;
+				font-weight: 900;
+				border: 0;
+				transform: translateY(-50%);
+				color: #9a9ccc;
+			}
+		}
+		.dropdown-menu{
+			box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+			
+			.dropdown-item{
+				padding: 10px 25px;
+				font-size: 14px;
+				font-weight: 600;
+				color: $dark;
+				@include transitionMedium;
+				
+				&:hover{					
+					background-color: $primary;
+					color: #fff;
+				}
+			}
+		}
+		.dropdown-item.active.selected{
+			color: #fff;
+			&:hover{
+				background-color: $primary;
+			}
+		}
+	}
+	.form-control{
+		border: 1px solid;
+		border-color: rgba($primary,0.3);
+		border-radius: $border-radius-base;
+		height: 60px;
+		font-weight: 500;
+		font-size: 16px;
+		color: #000;
+		
+		&:active,
+		&:focus,
+		&:hover{
+			border-color: $primary;
+		}
+		&::-webkit-input-placeholder{
+			color: #444;
+		}
+		&:-ms-input-placeholder {
+			color: #444;
+		}
+		&::placeholder {
+			color: #444;
+		}
+	}
+	textarea.form-control{
+		height: 150px;
+	}
+	@include respond('tab-port'){
+		.form-group {
+			margin-bottom: 15px;
+		}
+	}
+}
+.appointment-form{
+	background-color:$white;
+	box-shadow: 0px 10px 60px 0px rgba(31, 34, 120, 0.1);
+	border-radius: 40px;
+	padding: 40px 35px;
+	text-align:center;
+	position:relative;
+	
+	.title{
+		margin-bottom: 30px;
+	}
+	button{
+		margin-top: 15px;
+	}
+	&:after{
+		content:"";
+		position:absolute;
+		top:-20px;
+		left:-20px;
+		border-radius: 40px;
+		width:100%;
+		height:100%;
+		border:2px solid $primary;
+		z-index:-1;
+	}
+	@include respond('laptop-small'){
+		margin-left: 50px;
+	}
+	@include respond('tab-port'){
+		margin-left: 20px;
+		padding: 30px;
+		border-radius: 20px;
+		
+		&:after {
+			top: -15px;
+			left: -15px;
+			border-radius: 20px;
+		}
+		.title{
+			margin-bottom: 20px;
+			font-size: 20px;
+		}
+		.form-group {
+			margin-bottom: 15px;
+		}
+		button{
+			margin-top: 5px;
+		}
+	}
+	@include respond('phone'){
+		margin-left: 10px;
+		border-radius: 20px;
+		padding: 20px;
+		
+		.form-control {
+			height: 50px;
+			font-size: 14px;
+			padding: 12px 18px;
+		}
+		.form-select.bootstrap-select .dropdown-toggle {
+			height: 50px;
+			font-size: 14px;
+			padding: 15px 18px;
+		}
+		&:after {
+			top: -10px;
+			left: -10px;
+			border-radius: 20px;
+		}
+	}
+}
+.appointment-thumb{
+	position:relative;
+	width: 730px;
+	margin-left:70px;
+	
+	.images-group{
+		img{
+			position:absolute;
+		}
+		.img1{
+			right: 16px;
+			bottom: 16px;
+			height: 530px;
+			-webkit-animation: left-right 2s infinite alternate;
+			animation: left-right 2s infinite alternate;
+			@include respond('tab-land'){
+				right: 10px;
+				bottom: 14px;
+				height: 430px;
+			}
+		}
+		.img2{
+			left: 80px;
+			bottom: 255px;;
+			width: 130px;
+			-webkit-animation: up-down 2s infinite alternate;
+			animation: up-down 2.3s infinite alternate;
+			@include respond('tab-land'){
+				left: 60px;
+				bottom: 200px;
+				width: 100px;
+			}
+		}
+		.img3{
+			right: 260px;
+			bottom: 120px;
+			width: 94px;
+			-webkit-animation: up-down 2.5s infinite alternate;
+			animation: up-down 2.5s infinite alternate;
+			@include respond('tab-land'){
+				right: 166px;
+				bottom: 90px;
+				width: 85px;
+			}	
+		}
+		.img4{
+			left: 20px;
+			top: 150px;
+			-webkit-animation: up-down 1.5s infinite alternate;
+			animation: up-down 1.5s infinite alternate;
+			@include respond('tab-land'){
+				left: 10px;
+				top: 80px;
+			}
+		}
+		.img5{
+			right: 70px;
+			top: 30px;
+			-webkit-animation: up-down 2s infinite alternate;
+			animation: up-down 2s infinite alternate;
+		}
+		@include respond('laptop-small'){
+			.img1{
+				height: 400px;
+				right: 20px;
+			}
+			.img2{
+				left: 93px;
+				width: 80px;
+				bottom: 240px;
+			}
+			.img3{
+				right: 225px;
+				width: 70px;
+			}
+			.img4{
+				left: 40px;
+				width: 50px;
+			}
+			.img5{
+				right: 80px;
+				width: 80px;
+			}
+		}
+		@include respond('tab-land'){
+			.img1{
+				height: 280px;
+			}
+			.img2 {
+				left: 62px;
+				width: 60px;
+				bottom: 170px;
+			}
+			.img3 {
+				right: 154px;
+				width: 50px;
+			}
+			.img4 {
+				left: 20px;
+				width: 40px;
+			}
+			.img5 {
+				right: 70px;
+				width: 70px;
+				top: 60px;
+			}
+		}
+		@include respond('tab-port'){
+			.img1{
+				height: 180px;
+			}
+			.img2{
+				left: 39px;
+				width: 50px;
+				bottom: 110px;
+			}
+			.img3{
+				right: 110px;
+				width: 40px;
+			}
+			.img4{
+				left: 15px;
+				width: 30px;
+			}
+			.img5{
+				right: 30px;
+				width: 60px;
+				top: 40px;
+			}
+		}
+	}
+	@include respond('laptop-small'){
+		width: 650px;
+		margin-left: 0;
+	}
+	@include respond('tab-land'){
+		width: 100%;
+		padding-left:0;
+	}
+	@include respond('phone-land'){
+		width: 320px;
+		margin: 30px auto 0;
+	}
+}
+
+
+
+// Appointment Area
+.account-wraper2{
+	height: 100vh;
+    display: flex;
+    align-items: center;
+	background-color: lighten($primary,40);
+	
+	.appointment-form {
+		padding: 50px 40px;
+		button{
+			margin-top: 0;
+		}
+	}
+	.logo{
+		margin-bottom: 30px;
+	}
+	@include respond('phone-land'){
+		.appointment-form{
+			padding: 30px;
+		}
+	}
+}

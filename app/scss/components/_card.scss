@@ -1,0 +1,45 @@
+/* ==================
+	8.7 Card
+=================== */
+.card {
+    border: 0px solid $border-color;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow   : 0px 36px 48px rgba(31, 66, 135, 0.04);
+    background: $white;
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid $border-color;
+        background: $white;
+        padding: 20px 30px;
+        // margin      : 0px 35px;
+        // @include respond("desktop") {
+        //     padding: 10px;
+        // }
+        // @include custommq($min: 1200px, $max: 1350px) {
+        //     padding: 10px 0px;
+        // }
+
+        
+    }
+    &-title {
+        font-size: 24px;
+        margin-bottom: 0px;
+        // color: #ffffff;
+        // font-weight: 500;
+    }
+    .card-body {
+        padding: 20px 30px;
+        background: $white;
+        border-radius: 15px;
+        // @include respond("desktop") {
+        //     padding: 10px;
+        // }
+        // @include custommq($min: 1200px, $max: 1350px) {
+        //     padding: 10px 0px!important;
+        // }
+    }
+}
+

@@ -1,0 +1,199 @@
+/* ==================
+	8.12 Home Banner
+=================== */
+.main-banner{
+	position: relative;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	overflow:hidden;
+	z-index:1;
+	height: 1085px;
+	
+	&:after{
+		content: "";
+		height: 100%;
+		width: 100%;
+		left: 0;
+		bottom: 0;
+		position: absolute;
+		background-image: url(../../images/main-banner/shape1.png);
+		background-repeat: no-repeat;
+		background-position: bottom left;
+		background-size: 100%;
+		z-index: -1;
+	}
+	
+	h1{
+		margin-bottom:50px;
+		font-weight: 800;
+		line-height: 1.3;
+		color:$dark;
+		font-size: 55px;
+	}
+	.btn-lg{
+		padding: 20px 45px;
+	}
+	.title-ext{
+		margin: 0 0 20px;
+		font-size: 21px;
+		font-weight: 700;
+		display: inline-block;
+		padding: 5px 15px;
+		background-position: center;
+		background-repeat: repeat;
+		&.text-primary{
+			background-image: url(../../images/shap/ext-blue.png);
+		}
+		&.text-secondary{
+			background-image: url(../../images/shap/ext-orange.png);
+		}
+	}
+	.tag-list{
+		li{
+			display: inline-block;
+			margin-right: 8px;
+			position: relative;
+			padding-right: 5px;
+			font-size: 14px;
+			color:$dark;
+			font-weight:600;
+			&:after{
+				content: ",";
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				color: #777777;
+			}
+			&.title{
+				font-weight: 600;
+				&:after{
+					content: none;
+				}
+			}
+			a{
+				text-transform: capitalize;
+				font-weight: 400;
+				color: $gray;
+				&:hover{
+					color:$primary;
+				}
+			}
+		}
+	}
+	.banner-img{
+		-webkit-animation: up-down 2.5s infinite  alternate;
+		animation: up-down 2.5s infinite  alternate;
+		position: relative;	
+		margin-right: -160px;
+		margin-left: -50px;
+	}	
+	.inner-content{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	@include respond('laptop'){
+		height: 800px;
+		.banner-img {
+			margin-right: 0;
+			margin-left: 0px;
+		}
+		h1{
+		    margin-bottom: 30px;
+			font-size: 45px;
+		}
+		.title-ext {
+			margin: 0 0 10px;
+			font-size: 18px;
+		}
+	}
+	@include respond('tab-land'){
+		height: 700px;	
+		h1{
+			margin-bottom: 30px;
+			font-size: 36px;
+		}
+		.title-ext{
+			font-size:16px;
+			margin:0 0 15px;
+		}
+	}
+	@include respond('tab-port'){
+		height: 500px;
+		h1{
+			font-size: 28px;
+			margin-bottom: 20px;
+		}
+		.title-ext{
+			font-size: 14px;
+			margin: 0 0 10px;
+			padding: 3px 10px;
+		}
+		.btn-lg{
+			padding: 12px 24px;
+			font-size: 14px;
+		}
+
+	}
+	@include respond('phone-land'){
+		.banner-img {
+			margin-right: -40px;
+			margin-left: -20px;
+		}
+		h1{
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+		.main-banner {
+			height: 500px;
+		}
+	}
+	@include respond('phone'){
+		height: auto;
+		padding-top: 100px;
+		.banner-img {
+			margin: 30px 10px;
+		}
+		.inner-content {
+			position: unset;
+			transform: unset;
+		}
+	}
+	
+	// shapes ****
+	.pt-img1{
+		bottom: 35%;
+		left: 5%;
+		@include respond('laptop-small'){
+			left: 0%;
+			bottom: 25%;
+		}
+	}
+	.pt-img2{
+		top: 24%;
+		left: 51%;
+		@include respond('tab-port'){
+			top: 30%;
+			left: 55%;
+		}
+	}
+	.pt-img3{
+		top: 23%;
+		left: 17%;
+	}		
+	.pt-img4{
+		bottom: 15%;
+		left: 41%;
+		z-index: 1;
+		@include respond('tab-port'){
+			bottom: 10%;
+			left: 45%;
+		}
+	}
+	.pt-img5{
+		bottom: 150px;
+		right: 150px;
+	}
+}

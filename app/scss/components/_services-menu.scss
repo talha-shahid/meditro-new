@@ -1,0 +1,103 @@
+/* ==================
+	8.19 Service Menu
+=================== */
+.service-menu{
+	position: relative;
+	background-color: #fff;
+	border-radius: 6px 6px 4px 4px !important;
+	padding: 30px 30px;
+	box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.06);
+	border: 1px solid rgba($primary,0.2);
+	border-width: 1px 1px 3px 1px;
+	border-bottom-color: $primary;
+    
+	li{
+		margin-bottom: 10px;
+		a{
+			display: block;
+			padding: 15px 50px 15px 20px;
+			text-transform: capitalize;
+			font-weight: 600;
+			position: relative;
+			z-index: 1;
+			@include transitionMedium;
+			color: #fff;
+			font-weight: 500;
+			font-size: 16px;
+			border-radius: $border-radius-base;
+			background-color: $primary;
+			
+			i{
+				font-size: 18px;
+				text-align: center;
+				border-radius: 35px;
+				position: absolute;
+				right: 8px;
+				top: 8px;
+				width: 38px;
+				height: 38px;
+				line-height: 38px;
+				background: #fff;
+				border-radius: inherit;
+				display: inline-block;
+				color: $primary;
+			}
+		}
+		&:last-child{
+			margin-bottom:0;
+		}
+		&.active,
+		&:hover{
+			a{
+				background-color: $secondary;
+				i{
+					color: $secondary;
+				}
+			}
+		}
+	}
+	&.style-1{
+		li a i {
+			font-size: 24px;
+		}
+	}
+	@include respond('tab-land'){
+		padding: 15px;
+	}
+}
+.left-border-1{
+	padding-left: 30px;
+    border-left: 1px solid rgba(0,0,0,0.1);
+}
+.contact-infolist{
+	margin: 0 0 40px;
+    padding: 25px 0 5px;
+    list-style: none;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+	li {
+		position: relative;
+		padding: 0 20px 20px 80px;
+		img {
+			position: absolute;
+			left: 0;
+			top: 10px;
+			width: 60px;
+		}
+		.contact-title {
+			color: #020d26;
+			font-size: 20px;
+			line-height: 28px;
+			font-weight: 600;
+			margin-bottom: 2px;
+		}
+		a, 
+		p {
+			font-size: 16px;
+			line-height: 24px;
+			color: #555;
+			font-weight: 400;
+			margin-bottom: 5px;
+		}
+	}
+}

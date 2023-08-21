@@ -1,0 +1,128 @@
+/* ==================
+	8.21 Team
+=================== */
+.team-member{
+	background-color: #fff;
+    text-align: center;
+    padding: 35px 40px 50px;
+	border-radius:20px;
+	@include transitionMedium;
+	z-index:1;
+	position:relative;
+	border: 2px solid;
+	border-color: rgba($primary,0.2);
+	
+	.team-info{
+		.team-info-comntent{
+			margin-bottom:25px;
+			span{
+				font-size:16px;
+				font-weight:600;
+			}
+		}	
+	}
+	.team-media{
+		padding: 20%;
+		position: relative;
+		margin-bottom: 20px;
+		img {
+			-webkit-mask-image: url(../../images/team/shape3.png);
+			mask-image: url(../../images/team/shape3.png);
+			-webkit-mask-position: center center;
+			mask-position: center center;
+			-webkit-mask-repeat: no-repeat;
+			mask-repeat: no-repeat;
+			-webkit-mask-size: 100%;
+			mask-size: 100%;
+		}
+		&:after,
+		&:before{
+			content: "";
+			position: absolute;
+			z-index:-1;
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-position: center;
+			@include transitionMedium;
+			opacity:0.2;
+			transform: translate(-50%, -50%);
+			top: 50%;
+			left: 50%;
+		}
+		&:after{
+			background-image: url(../../images/team/shape1.png);
+			background-size: 100%;
+		}
+		&:before{
+			background-image: url(../../images/team/shape2.png);
+			background-size: 77%;
+		}
+	}
+	.social-media{
+		display: flex;
+		justify-content: center;
+		margin: 0 -6px;
+		li{
+			display: inline-block;
+			padding: 0 6px;
+			a{
+				display: block;
+				height: 40px;
+				width: 40px;
+				background-color: $primary;
+				border-radius: $border-radius-base;
+				@include transitionMedium;
+				color: #fff;
+				line-height: 42px;
+				text-align: center;
+				box-shadow: 0px 10px 40px 0px rgba(31, 34, 120, 0.1);
+			}
+		}
+	}
+	
+	&.active,
+	&:hover{
+		box-shadow: 0px 10px 50px 0px rgba(0, 2, 72, 0.1);
+		z-index: 9;
+		border-color: #fff;
+
+		.team-media{
+			&:before,
+			&:after{
+				opacity:1;
+			}
+		}
+	}
+	@include respond('phone-land'){
+		padding: 20px 30px 30px;	 
+	}
+}
+.team-wraper{
+	.pt-img1{
+		top: 15%;
+		left: 10%;
+	}
+	.pt-img2{
+		bottom: 30%;
+		left: 5%;
+		@include respond('laptop-small'){
+			left: 1%;			
+		}
+	}
+	.pt-img3{
+		bottom: -50px;
+		left: 58%;
+	}
+	.pt-img4{
+		top: 10%;
+		right: 25%;
+	}
+	.pt-img5{
+		top: 50%;
+		right: 5%;
+		@include respond('laptop-small'){
+		    right: 1%;
+		}
+	}
+}

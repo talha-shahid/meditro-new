@@ -1,0 +1,209 @@
+/* ==================
+	8.6 Buttons
+=================== */
+.btn{ 
+	padding: 15px 30px;
+    border-radius: $border-radius-base;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+	@include transitionMedium;
+    border-width:2px;
+    line-height: 1.2;
+	
+	&.shadow{
+		box-shadow: 0px 5px 20px 0px rgba(86, 90, 207, 0.3);
+	}
+}
+.btn-icon-bx {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: inherit;
+    line-height: 40px;
+    display: inline-block;
+    margin: -12px -27px -12px 15px;
+	color: #000;
+}
+.btn-xs{
+	font-size: 12px;
+    padding: 6px 15px;
+	.btn-icon-bx{
+		width: 26px;
+		height: 26px;
+		line-height: 26px;
+		margin: -10px -15px -10px 10px;
+	}
+}
+.btn-sm{
+	font-size: 14px;
+    padding: 12px 27px 12px 20px;
+	.btn-icon-bx{
+		width: 34px;
+		height: 34px;
+		margin: -10px -24px -10px 15px;
+		line-height: 34px;
+	
+	}
+}
+
+.btn-lg{
+    font-size: 16px;
+    padding: 20px 35px;
+    line-height: 1;
+	.btn-icon-bx{
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		margin: -16px -31px -16px 20px;
+	}
+}
+.btn-xl{
+	font-size: 18px;
+    padding: 24px 40px;
+    line-height: 1;
+	.btn-icon-bx{
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		margin: -20px -37px -20px 20px;
+	}
+}
+[class*="btn-outline-"]{
+	.btn-icon-bx{
+		color:#fff;
+	}
+}
+.btn-outline-primary{
+	.btn-icon-bx{
+		background:$primary;
+	}
+}
+.btn-outline-secondary{
+	.btn-icon-bx{
+		background:$secondary;
+	}
+}
+.btn-outline-success{
+	.btn-icon-bx{
+		background:$success;
+	}
+}
+.btn-outline-danger{
+	.btn-icon-bx{
+		background:$danger;
+	}
+}
+.btn-outline-info{
+	.btn-icon-bx{
+		background:$info;
+	}
+}
+.btn-outline-warning{
+	.btn-icon-bx{
+		background:$warning;
+	}
+}
+.btn-outline-light{
+	.btn-icon-bx{
+		background:$light;
+	}
+}	
+.btn-outline-dark{
+	.btn-icon-bx{
+		background:$dark;
+	}
+}	
+
+// button colors
+.btn-light{
+	color: $secondary;
+	background-color: $light;
+}
+.btn-secondary{
+	background-color: $secondary;
+	color:#fff;
+	&.light{		
+		background-color: lighten($secondary, 45);
+		color: $secondary;
+	}
+	&.shadow{
+		box-shadow: 0px 5px 20px 0px rgba(241, 119, 50, 0.3) !important;
+	}
+	&:hover{
+		background-color: lighten($secondary, 10);		
+		color:$white;
+		border:2px solid lighten($secondary, 10);
+		box-shadow: 0px 5px 20px 0px rgba(241, 119, 50, 0.3) !important;
+	}
+}
+.btn-primary{
+	background-color: $primary;
+	&.light{		
+		background-color: lighten($primary, 35);
+		color: $primary;
+		border:2px solid lighten($primary, 35);
+		&:hover{
+			background-color: lighten($primary, 0);		
+			box-shadow: 0px 1px 7px 0px rgba(86, 90, 207, 0.3);
+			color:$white;
+			border:2px solid $primary;
+		}
+	}
+	.btn-icon-bx{
+		color: $primary;
+	}
+	&.shadow{
+		box-shadow: 0px 5px 20px 0px rgba(86, 90, 207, 0.3) !important;
+	}
+}
+.btn-success{
+	background-color: $success;
+	&.light{		
+		background-color: lighten($success, 45);
+		color: $success;
+	}
+	.btn-icon-bx{
+		color: $success;
+	}
+}
+.btn-danger{
+	background-color: $danger;
+	&.light{		
+		background-color: lighten($danger, 40);
+		color: $danger;
+	}
+	.btn-icon-bx{
+		color: $danger;
+	}
+}
+.btn-warning{
+	background-color: $warning;
+	&.light{		
+		background-color: lighten($warning, 45);
+		color: $warning;
+	}
+	.btn-icon-bx{
+		color: $warning;
+	}
+}
+.btn-info{
+	background-color: $info;
+	&.light{		
+		background-color: lighten($info, 45);
+		color: $info;
+	}
+	.btn-icon-bx{
+		color: $info;
+	}
+}
+.btn-dark{
+	background-color: $dark;
+	&.light{		
+		background-color: lighten($dark, 45);
+		color: $white;
+	}
+	.btn-icon-bx{
+		color: $dark;
+	}
+}

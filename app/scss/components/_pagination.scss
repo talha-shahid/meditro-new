@@ -1,0 +1,194 @@
+/* ==================
+	8.14 Pagination
+=================== */
+.pagination-bx{
+	.pagination {
+		margin: 0;
+		width:100%;
+	}
+}
+
+// Pagination
+.pagination {
+    padding: 10px 0;
+	display: block;
+	li{
+		display:inline-block;
+		padding: 0 4px;
+	}
+	& > li{
+		&:first-child{
+			& > a,
+			& > span{
+				border-bottom-left-radius: 0;
+				border-top-left-radius: 0;
+				margin-left: 0;
+			}
+		}
+		&:last-child{
+			& > a,
+			& > span{
+				border-bottom-right-radius: 0;
+				border-top-right-radius: 0;
+			}
+		}
+		& > a,
+		& > span{
+			background-color: #fff;
+			color: $primary;
+			padding: 12px 15px;
+			font-weight: 600;
+			font-size: 14px;
+			min-width: 40px;
+			line-height: 1;
+			display: block;			
+			border-radius: $border-radius-base!important;
+			border: 2px solid rgba($primary,0.2);
+			
+			@include transitionMedium;
+			
+			&:hover{
+				border-color: transparent;
+				color: #fff;
+			}
+			@include respond('phone'){
+				padding: 10px 15px;
+			}
+		}
+	}
+	& > .active{
+		& > a,
+		& > span,
+		& > a:hover,
+		& > span:hover,
+		& > a:focus,
+		& > span:focus {
+			border-color: transparent;
+		}
+	}
+	@include respond('phone'){
+		li{
+			margin: 0;
+		}
+	}
+}
+
+// Pagination SM
+.pagination-sm{
+	.pagination{
+		& > li > a, 
+		& > li > span
+		& > .previous > a, 
+		& > .next > a{
+			font-size: 12px;
+			padding: 6px 12px;
+		}
+	}
+} 
+
+// Pagination LG
+.pagination-lg{
+	.pagination{
+		& > li > a, 
+		& > li > span
+		& > .previous > a, 
+		& > .next > a{
+			font-size: 18px;
+			padding: 10px 20px;
+		}
+	}
+}
+
+// Pagination Color
+.pagination-bx{
+	&.primary{
+		.pagination{
+			& > li{
+				& > a, 
+				& > span{
+					background-color:#1abc9c;
+					color:#fff;
+					margin: 0 1px;
+					border:0;
+				}
+			}
+			& > li > a:hover, 
+			& > li > span:hover,
+			& > li.active > span,
+			& > li.active > a{
+				background-color:#148f77;
+			}
+		}
+	}
+}
+
+// Pagination Rounded
+.pagination-bx{
+	&.rounded{
+		.pagination{
+			& > li > a, 
+			& > li > span{
+				border-radius: 30px;
+				margin:0 1px;
+			}
+		}
+	}
+}
+
+// Pagination Rounded SM
+.pagination-bx{
+	&.rounded-sm{
+		.pagination{
+			& > li{
+				& > a, 
+				& > span{
+					border-radius: 4px;
+					margin:0 1px;
+					display: block;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+				}
+			}
+		} 
+	}
+}
+
+// Pagination Gray
+.pagination-bx{
+	&.gray{
+		.pagination{
+			& > li > a, 
+			& > li > span{
+				background-color:#f6f7f8;
+				margin: 0 1px;
+				border:0;
+			}
+			& > li > a:hover, 
+			& > li > span:hover,
+			& > li.active > span,
+			& > li.active > a{
+				background-color: $primary;
+				color:#fff;
+			}
+		}
+	}
+}
+.pagination {
+	i {
+		font-size: 12px;
+	}
+	li{
+		&.active{
+			a {
+				background-color: $primary;
+				color: #fff;
+			}
+		}
+	}
+	& > li.active > a:hover, 
+	& > li > a:hover, 
+	& > li > span:hover{
+		color: #fff;
+		background-color: $primary;
+	}
+}

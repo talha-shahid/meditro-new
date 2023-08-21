@@ -1,0 +1,248 @@
+/* ==================
+	9.2 Footer
+=================== */
+footer{
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+	font-size:15px;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	p{
+		font-weight: 500;
+	}
+	.widget{
+		&.footer_widget{
+			ul{
+				margin-bottom: 0;
+			}
+		}
+		.footer-title{
+			margin-bottom:30px;
+			position:relative;
+			padding-bottom:20px;
+			font-size: 24px;
+				
+			&:after{
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 85px;
+				height: 7px;
+				background-image: url(../../images/shap/footer-line.png);
+				background-repeat: no-repeat;
+			}
+			@include respond('phone-land'){
+				padding-bottom:15px;
+				font-size: 20px;
+				margin-bottom: 25px;
+					
+				&:after{
+					width: 75px;
+					height: 5px;
+				}
+			}
+		}
+		@include respond('phone-land'){
+			margin-bottom: 40px;
+		}
+	}
+	.ft-contact{
+		p{
+			font-size:16px;
+			line-height:28px;
+			font-weight:500;
+			margin-bottom:30px;
+		}
+		.contact-bx{
+			display: flex;
+			align-items: center;
+			.icon{
+				i{
+					font-size:24px;
+					color:$white;
+					margin-right:15px;
+					background-color:$secondary;
+					border-radius: 30px 30px 0px 30px;
+					width: 58px;
+					height: 58px;
+					line-height: 58px;
+					text-align: center;
+				}
+			}
+			.contact-number{
+				.number{
+					margin-bottom:0;
+					font-size: 20px;
+				}
+				span {
+					color: $secondary;
+					font-size: 14px;
+					margin-bottom: 5px;
+					font-weight: 600;
+					display: block;
+
+				}
+			}
+		}
+		@include respond('phone-land'){
+			p{
+				margin-bottom:20px;
+			}
+		}
+	}
+	.footer-logo{
+		max-width:190px;
+		margin-bottom:25px;
+		@include respond('phone-land'){
+			margin-bottom:15px;
+		}
+	}
+	.widget-logo ul{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		li{
+			display:inline-block;
+		    flex: 50%;	
+		    padding: 0 15px 15px 0px;	
+		}
+	}
+	.footer-top{
+		padding: 200px 0 20px;
+		@include respond('laptop-small'){
+			padding: 150px 0 0;			
+		}
+		@include respond('tab-port'){
+			padding: 120px 0 0;			
+		}
+		@include respond('phone-land'){
+			padding: 100px 0 0;						
+		}
+		@include respond('phone'){
+			padding: 70px 0 10px;
+		}
+	}
+	.footer-bottom {
+		padding: 25px 0;
+		font-size: 15px;
+	}
+	.subscribe-form{
+		.form-control{
+			border-radius: 10px;
+			box-shadow: 0px 10px 60px 0px rgba(31, 34, 120, 0.1);
+			margin-bottom:20px;
+			height: 52px;
+			font-size: 15px;
+			font-weight: 500;
+		}
+	}
+	
+	@include respond('tab-port'){
+		.widget.footer_widget.ml-50{
+			margin-left: 0;
+		}
+	}
+}
+
+// FOOTER
+.footer{
+	.footer_widget{
+		ul li a{
+			font-size: 16px;
+			font-weight: 500;
+			padding: 6px 0;
+			display: block;
+			line-height: 25px;
+			color: $body-color;
+			position: relative;
+			&:hover{
+				color: $primary;				
+			}
+		}
+	}
+
+	// footer-bottom
+	.footer-bottom{
+		border-top:1px solid #d4d5f1;
+		.copyright-text{
+			margin: 0;
+		}
+		.link-inline{
+			margin: 0 -15px;
+			li{
+				display: inline-block;
+				margin-left: 15px;
+				margin-right: 15px;
+				text-transform: capitalize;
+				a{
+					span{
+					}
+					&:hover{
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+	
+	&:after{
+		content: "";
+		background-image: url(../../images/background/footer-shape.png);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		z-index: -1;
+		background-position: left top;
+	}
+	
+	.footer-social-link{
+		ul{
+			margin: 0 -8px;
+			li{
+				display:inline-block;
+				padding: 0 8px;
+			}
+		}
+	}
+	.pt-img1{
+		top: 100px;
+		left: 130px;
+		z-index: 1;
+		
+		@include respond('laptop-small'){
+			top: 80px;
+			left: 80px;
+		}
+	}
+	.pt-img2{
+		bottom: 180px;
+		left: 30px;
+		@include respond('laptop-small'){
+			bottom: 100px;
+			left: 60px;
+		}
+	}
+	.pt-img3{
+		top: 180px;
+		right: 40px;
+		@include respond('tab-port'){
+			right: -50px;
+		}
+
+	}
+	.pt-img4{
+		bottom: 120px;
+		right: 60px;
+		@include respond('tab-port'){
+		    bottom: 40px;
+			sright: 0px;
+		}
+	}
+}

@@ -1,0 +1,85 @@
+/*	Author: ThemeTrades
+	======================
+    Name: MediTro
+    Version:   1.2.1
+    Portfolio : https://themeforest.net/user/themetrades/portfolio  
+	
+	======================
+	[Table of contents]
+	======================
+	
+	==========
+	* Start *
+	==========
+	1. Basic
+	2. Typography
+		2.1 Font Size  
+		2.2 Font Weight 
+		2.3 Positions Z-index
+	3. Spacing	
+		3.1 Row Spacing
+		2.2 Padding
+			3.2.1 Padding Around
+			3.2.2 Padding Top
+			3.2.3 Padding Bottom
+			3.2.4 Padding Left
+			3.2.5 Padding Right
+			3.2.6 Padding Left Right
+			3.2.7 Padding Top Bottom
+		3.3 Margin	
+			3.3.1 margin Around
+			3.3.2 margin Top
+			3.3.3 margin Bottom
+			3.3.4 margin Left
+			3.3.5 margin Right
+			3.3.6 margin Left Right
+			3.3.7 margin Top Bottom
+		3.4 Section Spacing	
+	4. Heading	
+	5. Page Banner
+	6. Breadcrumb	
+	7. Fonts
+	8. Components
+		8.1 About Us
+		8.2 Accordion
+		8.3 Action Box
+		8.4 Appointment
+		8.5 Blog & News
+		8.6 Buttons
+		8.7 Card
+		8.8 Category
+		8.9 Icon Box
+		8.10 Filter
+		8.11 Form
+		8.12 Home Banner
+		8.13 Overlay
+		8.14 Pagination
+		8.15 Pattern
+		8.16 Pricing Table
+		8.17 Back To Top
+		8.18 Separator
+		8.19 Service Menu
+		8.20 Table
+		8.21 Team
+		8.22 Testimonial
+		8.23 Work Box
+	9. Layout
+		9.1 Header
+		9.2 Footer
+		9.3 Widget
+	10. Pages
+		10.1 Index
+		10.2 Blog Details
+		10.3 Service
+		10.4 Error 404
+	
+	==========
+	* End *
+	==========	
+*/
+@import "./abstract/abstract";
+@import "bootstrap/scss/bootstrap.scss";
+@import "./base/base";
+@import "./components/components";
+@import "./pages/pages";
+@import "./layout/layout";

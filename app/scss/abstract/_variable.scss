@@ -1,0 +1,56 @@
+//to ignore cli warning about deprecated mixin
+$enable-deprecation-messages: false;
+$ignore-warning             : true;
+
+// stylelint-disable-next-line scss/dollar-variable-default
+$primary   : #565acf;
+$secondary : #f17732 !default;
+$success   : #209f84 !default;
+$info      : #2754e6 !default;
+$warning   : #fe970e !default;
+$danger    : #f72b50 !default;
+$light     : #fff    !default;
+$bluelight : #f1f6ff !default;
+$dark      : #1f2278;
+$gray      : #666666 !default;
+
+// Body
+$body-bg   : #ffffff;
+$body-color: #444;
+
+// Typography
+$font-family-base : 'Montserrat', sans-serif;
+$font-family-title :'Montserrat', sans-serif;
+$headings-font-weight   : 500;
+
+$font-size-base         : 1rem !default;
+$font-weight-base       : 500 !default;
+
+// Heading Size
+$h1-font-size : 50px;
+$h2-font-size : 35px;
+$h3-font-size : 28px;
+$h4-font-size : 24px;
+$h5-font-size : 20px;
+$h6-font-size : 18px;
+
+$text-muted : #AEAED5;
+$colors     : () !default;
+
+$heading-primary-size: 1.8rem;
+$sub-heading-size    : 1.6rem !default;
+$grid-gutter-width   : 30px;
+$dropdown-lik-color  : $body-color;
+$border-color        : #E1E1F0;
+$headings-color      :#14181d !default;
+$grid-breakpoints    : (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1440);
+$container-max-widths: (sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1199px) !default;
+
+$input-btn-focus-width: 0rem !default;
+$border-radius-base   : 8px !default;
+$border-radius-lg   : 20px !default;
+$shadow-color: rgba(160, 159, 202, 0.15);
+$ft-color: #878e9c;

@@ -1,0 +1,27 @@
+/* ==================
+	8.17 Back To Top
+=================== */
+button.back-to-top{
+    border-style: solid;
+    border-width: 0;
+    bottom: 15px;
+    box-shadow: 0px 10px 30px 0px rgba(31, 34, 120, 0.1);
+    color: #fff;
+	background-color: $primary;
+    border-radius: $border-radius-base;
+	cursor: pointer;
+    height: 45px;
+    margin: 0;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    width: 45px;
+    z-index: 999;
+    padding: 0;
+    font-size: 12px;
+	
+	@include respond('phone'){
+		height: 35px;
+		width: 35px;
+	}
+}

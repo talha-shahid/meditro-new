@@ -1,0 +1,23 @@
+/* ==================
+	8.3 Action Box
+=================== */
+.action-wraper{
+	.action-inner{
+		background-color:$primary;
+		box-shadow: 0 5px 20px rgba($primary,0.2);
+		border-radius:20px;
+		padding:45px;
+		
+		.title{
+			font-size: 40px;
+			color: #fff;
+			font-weight: 700;
+			margin-bottom: 15px;
+		}
+		.text{
+			margin: 0;
+			font-weight: 400;
+			color: #fff;
+		}
+	}
+}
