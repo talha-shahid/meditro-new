@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import { Link } from 'react-router-dom';
+// import { Link } from "react-router-dom";
 
 // Import Images
 import bg1 from "../../images/main-banner/bg1.jpg";
@@ -22,15 +22,12 @@ class aboutSection extends Component {
             <div className="row align-items-center">
               <div className="col-lg-7 col-md-6 col-sm-7">
                 <h6 className="title-ext text-primary">
-                  We Provide All Health Care Solution
+                  We provide all Medical Billing Services{" "}
                 </h6>
-                <h1>Protect Your Health And Take Care To Of Your Health</h1>
-                <div
-                  href="/about-us"
-                  className="btn btn-secondary btn-lg shadow"
-                >
-                  Read More
-                </div>
+                <h1>Maximizing Revenue Streams, Minimizing Worries</h1>
+                <a href="/about-us" className="btn btn-secondary btn-lg shadow">
+                  Schedual Meeting
+                </a>
               </div>
               <div className="col-lg-5 col-md-6 col-sm-5">
                 <div className="banner-img">
@@ -43,7 +40,7 @@ class aboutSection extends Component {
           <img className="pt-img2 animate2" src={ptImg2.src} alt="" />
           <img className="pt-img3 animate3" src={ptImg3.src} alt="" />
           <img className="pt-img4 animate4" src={ptImg4.src} alt="" />
-          <img className="pt-img5 animate-wave" src={ptImg5.src} alt="" />
+          <img className="pt-img5 animate-wave" src={ptImg5} alt="" />
         </div>
       </>
     );

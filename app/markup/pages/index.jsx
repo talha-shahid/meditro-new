@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // Elements
 import MainBannerSection from "../elements/main-banner";
@@ -8,29 +8,27 @@ import AppointmentSection from "../elements/appointment";
 import TestimonialSection from "../elements/testimonial";
 import ServicesSliderSection from "../elements/services-slider";
 import LatestNewsSection from "../elements/latest-news-slider";
+import OurProductsSection from "../elements/our-products-slider";
 
-function Index(){
-	
-	return(
-		<>
-			
-			<MainBannerSection />
-			
-			<AboutSection />
-			
-			<WorkSection />
-			
-			<AppointmentSection />
-			
-			<ServicesSliderSection />
-			
-			<TestimonialSection />
-			
-			<LatestNewsSection />
-			
-		</>
-		
-	);
+function Index() {
+  return (
+    <>
+      <MainBannerSection />
+
+      <AboutSection />
+
+      <ServicesSliderSection />
+
+      <AppointmentSection />
+
+      <WorkSection />
+
+      <TestimonialSection />
+
+      <OurProductsSection />
+      <LatestNewsSection />
+    </>
+  );
 }
 
 export default Index;

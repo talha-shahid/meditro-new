@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import { Link } from 'react-router-dom';
+// import { Link } from "react-router-dom";
 
 // Import Images
 import bg1 from "../../images/background/line-bg1.png";
@@ -14,7 +14,7 @@ class aboutSection extends Component {
         <section
           className="section-area section-sp5 work-area"
           style={{
-            backgroundImage: "url(" + bg1.src + ")",
+            backgroundImage: "url(" + bg1 + ")",
             backgroundRepeat: " no-repeat",
             backgroundPosition: "center",
             backgroundSize: "100%",
@@ -22,8 +22,8 @@ class aboutSection extends Component {
         >
           <div className="container-sm">
             <div className="heading-bx text-center">
-              <h6 className="title-ext text-secondary">Working Process</h6>
-              <h2 className="title">How we works?</h2>
+              <h6 className="title-ext text-secondary">Why Us ?</h6>
+              <h2 className="title">Why Choose Us?</h2>
             </div>
             <div className="row justify-content-center">
               <div className="col-lg-4 col-sm-6 mb-30">
@@ -31,51 +31,54 @@ class aboutSection extends Component {
                   <div className="work-num-bx">01</div>
                   <div className="work-content">
                     <h5 className="title text-secondary mb-10">
-                      Make Appointmnet
+                      Revenue Cycle Experts
                     </h5>
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of.
+                      Connect with our revenue cycle specialists, a highly
+                      skilled team in medical billing, coding, and
+                      credentialing, for substantial revenue enhancement in your
+                      practice.
                     </p>
                   </div>
-                  <div href="/booking" className="btn btn-primary light">
+                  <a href="/booking" className="btn btn-primary light">
                     View More{" "}
                     <i className="btn-icon-bx fas fa-chevron-right"></i>
-                  </div>
+                  </a>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 mb-30">
                 <div className="work-bx active">
                   <div className="work-num-bx">02</div>
                   <div className="work-content">
-                    <h5 className="title text-secondary mb-10">
-                      Take Treatment
-                    </h5>
+                    <h5 className="title text-secondary mb-10">Flexibility</h5>
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of.
+                      We offer Medical Billing and Coding services to practices
+                      of all sizes, from small clinics to large institutions,
+                      with customizable packages to suit your requirements.
                     </p>
                   </div>
-                  <div href="/services" className="btn btn-primary light">
+                  <a href="/services" className="btn btn-primary light">
                     View More{" "}
                     <i className="btn-icon-bx fas fa-chevron-right"></i>
-                  </div>
+                  </a>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 mb-30">
                 <div className="work-bx">
                   <div className="work-num-bx">03</div>
                   <div className="work-content">
-                    <h5 className="title text-secondary mb-10">Registration</h5>
+                    <h5 className="title text-secondary mb-10">24/7 Support</h5>
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of.
+                      Get round-the-clock support from our billing company's
+                      dedicated team. Day or night, we're here to address
+                      inquiries, resolve concerns, and offer guidance for
+                      seamless operations and peace of mind.
                     </p>
                   </div>
-                  <div href="/contact-us" className="btn btn-primary light">
+                  <a href="/contact-us" className="btn btn-primary light">
                     View More{" "}
                     <i className="btn-icon-bx fas fa-chevron-right"></i>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
