@@ -1,15 +1,25 @@
+"use client";
+
 import React, { Component } from "react";
 // import { Link } from 'react-router-dom';
 
+// // Fonts
+import "@/app/vendor/line-awesome/css/line-awesome.min.css";
+import "@/app/vendor/font-awesome/css/all.min.css";
+import "@/app/vendor/themify/themify-icons.css";
+
+// StyleSheet
+import "@/app/App.scss";
+
 // Import Images
-import bnrImg1 from "../../images/banner/img1.jpg";
-import pic1 from "../../images/about/pic-1.jpg";
-import icon1 from "../../images/icon/icon1.png";
-import icon2 from "../../images/icon/icon2.png";
-import icon3 from "../../images/icon/icon3.png";
-import animateWave from "../../images/shap/wave-blue.png";
-import animate2 from "../../images/shap/circle-dots.png";
-import animateRotate from "../../images/shap/plus-blue.png";
+import bnrImg1 from "@/app/images/banner/img1.jpg";
+import pic1 from "@/app/images/about/pic-1.jpg";
+import icon1 from "@/app/images/icon/icon1.png";
+import icon2 from "@/app/images/icon/icon2.png";
+import icon3 from "@/app/images/icon/icon3.png";
+import animateWave from "@/app/images/shap/wave-blue.png";
+import animate2 from "@/app/images/shap/circle-dots.png";
+import animateRotate from "@/app/images/shap/plus-blue.png";
 
 class ContactUs extends Component {
   render() {
@@ -27,7 +37,7 @@ class ContactUs extends Component {
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
-                        <div href="/">
+                        <a href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="22"
@@ -44,7 +54,7 @@ class ContactUs extends Component {
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
                           </svg>{" "}
                           Home
-                        </div>
+                        </a>
                       </li>
                       <li
                         className="breadcrumb-item active"

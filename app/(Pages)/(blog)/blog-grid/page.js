@@ -1,26 +1,40 @@
+"use client";
+
 import React, { Component } from "react";
 // import { Link } from 'react-router-dom';
 
+// // Fonts
+import "@/app/vendor/line-awesome/css/line-awesome.min.css";
+import "@/app/vendor/font-awesome/css/all.min.css";
+import "@/app/vendor/themify/themify-icons.css";
+
+// Slick Carousel
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+// StyleSheet
+import "@/app/App.scss";
+
 // Import Images
-import bnrImg1 from "../../images/banner/img1.jpg";
-import waveBlue from "../../images/shap/wave-blue.png";
-import circleDots from "../../images/shap/circle-dots.png";
-import plusBlue from "../../images/shap/plus-blue.png";
-import testPic1 from "../../images/testimonials/pic1.jpg";
-import testPic2 from "../../images/testimonials/pic2.jpg";
-import testPic3 from "../../images/testimonials/pic3.jpg";
-import testPic4 from "../../images/testimonials/pic4.jpg";
-import testPic5 from "../../images/testimonials/pic5.jpg";
-import testPic6 from "../../images/testimonials/pic6.jpg";
-import blogGridPic1 from "../../images/blog/grid/pic1.jpg";
-import blogGridPic2 from "../../images/blog/grid/pic2.jpg";
-import blogGridPic3 from "../../images/blog/grid/pic3.jpg";
-import blogGridPic4 from "../../images/blog/grid/pic4.jpg";
-import blogGridPic5 from "../../images/blog/grid/pic5.jpg";
-import blogGridPic6 from "../../images/blog/grid/pic6.jpg";
-import blogGridPic7 from "../../images/blog/grid/pic7.jpg";
-import blogGridPic8 from "../../images/blog/grid/pic8.jpg";
-import blogGridPic9 from "../../images/blog/grid/pic9.jpg";
+import bnrImg1 from "@/app/images/banner/img1.jpg";
+import waveBlue from "@/app/images/shap/wave-blue.png";
+import circleDots from "@/app/images/shap/circle-dots.png";
+import plusBlue from "@/app/images/shap/plus-blue.png";
+import testPic1 from "@/app/images/testimonials/pic1.jpg";
+import testPic2 from "@/app/images/testimonials/pic2.jpg";
+import testPic3 from "@/app/images/testimonials/pic3.jpg";
+import testPic4 from "@/app/images/testimonials/pic4.jpg";
+import testPic5 from "@/app/images/testimonials/pic5.jpg";
+import testPic6 from "@/app/images/testimonials/pic6.jpg";
+import blogGridPic1 from "@/app/images/blog/grid/pic1.jpg";
+import blogGridPic2 from "@/app/images/blog/grid/pic2.jpg";
+import blogGridPic3 from "@/app/images/blog/grid/pic3.jpg";
+import blogGridPic4 from "@/app/images/blog/grid/pic4.jpg";
+import blogGridPic5 from "@/app/images/blog/grid/pic5.jpg";
+import blogGridPic6 from "@/app/images/blog/grid/pic6.jpg";
+import blogGridPic7 from "@/app/images/blog/grid/pic7.jpg";
+import blogGridPic8 from "@/app/images/blog/grid/pic8.jpg";
+import blogGridPic9 from "@/app/images/blog/grid/pic9.jpg";
 
 // Blog Content
 const blogPost = [
@@ -97,7 +111,7 @@ class BlogGrid extends Component {
           <div className="banner-wraper">
             <div
               className="page-banner"
-              style={{ backgroundImage: "url(" + bnrImg1 + ")" }}
+              style={{ backgroundImage: "url(" + bnrImg1.src + ")" }}
             >
               <div className="container">
                 <div className="page-banner-entry text-center">
@@ -105,7 +119,7 @@ class BlogGrid extends Component {
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
-                        <div href="/">
+                        <a href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="22"
@@ -122,7 +136,7 @@ class BlogGrid extends Component {
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
                           </svg>{" "}
                           Home
-                        </div>
+                        </a>
                       </li>
                       <li
                         className="breadcrumb-item active"
@@ -134,9 +148,13 @@ class BlogGrid extends Component {
                   </nav>
                 </div>
               </div>
-              <img className="pt-img1 animate-wave" src={waveBlue} alt="" />
-              <img className="pt-img2 animate2" src={circleDots} alt="" />
-              <img className="pt-img3 animate-rotate" src={plusBlue} alt="" />
+              <img className="pt-img1 animate-wave" src={waveBlue.src} alt="" />
+              <img className="pt-img2 animate2" src={circleDots.src} alt="" />
+              <img
+                className="pt-img3 animate-rotate"
+                src={plusBlue.src}
+                alt=""
+              />
             </div>
           </div>
 
@@ -148,14 +166,14 @@ class BlogGrid extends Component {
                     <div className="blog-card mb-30">
                       <div className="post-media">
                         <div href="/blog-details">
-                          <img src={blogPost.thumb} alt="" />
+                          <img src={blogPost.thumb.src} alt="" />
                         </div>
                       </div>
                       <div className="post-info">
                         <ul className="post-meta">
                           <li className="author">
                             <div href="/blog-details">
-                              <img src={blogPost.authorPic} alt="" />{" "}
+                              <img src={blogPost.authorPic.src} alt="" />{" "}
                               {blogPost.author}
                             </div>
                           </li>
@@ -184,19 +202,19 @@ class BlogGrid extends Component {
                   <div className="pagination-bx text-center mb-30 clearfix">
                     <ul className="pagination">
                       <li className="previous">
-                        <div href="#">Prev</div>
+                        <a href="#">Prev</a>
                       </li>
                       <li className="active">
-                        <div href="#">1</div>
+                        <a href="#">1</a>
                       </li>
                       <li>
-                        <div href="#">2</div>
+                        <a href="#">2</a>
                       </li>
                       <li>
-                        <div href="#">3</div>
+                        <a href="#">3</a>
                       </li>
                       <li className="next">
-                        <div href="#">Next</div>
+                        <a href="#">Next</a>
                       </li>
                     </ul>
                   </div>

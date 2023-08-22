@@ -1,20 +1,34 @@
+"use client";
+
 import React, { Component } from "react";
 // import { Link } from 'react-router-dom';
 
+// Slick Carousel
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+
+// // Fonts
+import "@/app/vendor/line-awesome/css/line-awesome.min.css";
+import "@/app/vendor/font-awesome/css/all.min.css";
+import "@/app/vendor/themify/themify-icons.css";
+
+// StyleSheet
+import "@/app/App.scss";
+
 // Import Images
-import bnrImg1 from "../../images/banner/img1.jpg";
-import trangleOrange from "../../images/shap/trangle-orange.png";
-import squareDotsOrange from "../../images/shap/square-dots-orange.png";
-import lineCircleBlue from "../../images/shap/line-circle-blue.png";
-import waveBlue from "../../images/shap/wave-blue.png";
-import circleDots from "../../images/shap/circle-dots.png";
-import plusBlue from "../../images/shap/circle-dots.png";
-import teamMember1 from "../../images/team/member1.jpg";
-import teamMember2 from "../../images/team/member2.jpg";
-import teamMember3 from "../../images/team/member3.jpg";
-import teamMember4 from "../../images/team/member4.jpg";
-import teamMember5 from "../../images/team/member5.jpg";
-import teamMember6 from "../../images/team/member6.jpg";
+import bnrImg1 from "@/app/images/banner/img1.jpg";
+import trangleOrange from "@/app/images/shap/trangle-orange.png";
+import squareDotsOrange from "@/app/images/shap/square-dots-orange.png";
+import lineCircleBlue from "@/app/images/shap/line-circle-blue.png";
+import waveBlue from "@/app/images/shap/wave-blue.png";
+import circleDots from "@/app/images/shap/circle-dots.png";
+import plusBlue from "@/app/images/shap/circle-dots.png";
+import teamMember1 from "@/app/images/team/member1.jpg";
+import teamMember2 from "@/app/images/team/member2.jpg";
+import teamMember3 from "@/app/images/team/member3.jpg";
+import teamMember4 from "@/app/images/team/member4.jpg";
+import teamMember5 from "@/app/images/team/member5.jpg";
+import teamMember6 from "@/app/images/team/member6.jpg";
 
 // Team Content
 const teamMembers = [
@@ -96,7 +110,7 @@ class Team extends Component {
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
-                        <div href="/">
+                        <a href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="22"
@@ -113,7 +127,7 @@ class Team extends Component {
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
                           </svg>{" "}
                           Home
-                        </div>
+                        </a>
                       </li>
                       <li
                         className="breadcrumb-item active"
@@ -142,7 +156,7 @@ class Team extends Component {
                   <div key={index} className="col-lg-4 col-sm-6">
                     <div className="team-member mb-30">
                       <div className="team-media">
-                        <img src={teamMember.thumb} alt="" />
+                        <img src={teamMember.thumb.src} alt="" />
                       </div>
                       <div className="team-info">
                         <div className="team-info-comntent">

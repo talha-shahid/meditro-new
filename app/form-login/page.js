@@ -1,8 +1,18 @@
+"use client";
+
 import React, { Component } from "react";
 // import { Link } from 'react-router-dom';
 
 // Import Images
-import logo from "../../images/logo.png";
+import logo from "@/app/images/logo.png";
+
+// // Fonts
+import "@/app/vendor/line-awesome/css/line-awesome.min.css";
+import "@/app/vendor/font-awesome/css/all.min.css";
+import "@/app/vendor/themify/themify-icons.css";
+
+// StyleSheet
+import "@/app/App.scss";
 
 class FormLogin extends Component {
   render() {
@@ -39,9 +49,9 @@ class FormLogin extends Component {
                       >
                         login
                       </div>
-                      <div href="/form-forget-password" data-toggle="tab">
+                      <a href="/form-forget-password" data-toggle="tab">
                         Forgot Password
-                      </div>
+                      </a>
                     </div>
                     <div className="text-center mt-40">
                       <p className="mt-0">Dont have any account?</p>

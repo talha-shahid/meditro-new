@@ -1,3 +1,5 @@
+"use client";
+
 import React, { Component } from "react";
 
 // Images
@@ -13,7 +15,7 @@ import ptImg2 from "../../images/shap/wave-orange.png";
 import ptImg3 from "../../images/shap/wave-blue.png";
 import ptImg4 from "../../images/shap/circle-orange.png";
 
-import AppointmentForm from "./appointment-form";
+import AppointmentForm from "@/app/markup/elements/appointment-form";
 
 class aboutSection extends Component {
   render() {

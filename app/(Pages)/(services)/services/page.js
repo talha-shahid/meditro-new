@@ -1,16 +1,30 @@
+"use client";
+
 import React, { Component } from "react";
 // import { Link } from 'react-router-dom';
 
+//Fonts
+import "@/app/vendor/line-awesome/css/line-awesome.min.css";
+import "@/app/vendor/font-awesome/css/all.min.css";
+import "@/app/vendor/themify/themify-icons.css";
+
+// Slick Carousel
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+// StyleSheet
+import "@/app/App.scss";
+
 // Elements
-import FeatureSection3 from "../elements/feature-section3";
-import TeamSection from "../elements/team";
-import LatestNewsSection from "../elements/latest-news-slider";
+import FeatureSection3 from "@/app/markup/elements/feature-section3";
+import TeamSection from "@/app/markup/elements/team";
+import LatestNewsSection from "@/app/markup/elements/latest-news-slider";
 
 // Import Images
-import bnrImg1 from "../../images/banner/img1.jpg";
-import waveBlue from "../../images/shap/wave-blue.png";
-import circleDots from "../../images/shap/circle-dots.png";
-import plusBlue from "../../images/shap/plus-blue.png";
+import bnrImg1 from "@/app/images/banner/img1.jpg";
+import waveBlue from "@/app/images/shap/wave-blue.png";
+import circleDots from "@/app/images/shap/circle-dots.png";
+import plusBlue from "@/app/images/shap/plus-blue.png";
 
 class Services extends Component {
   render() {
@@ -28,7 +42,7 @@ class Services extends Component {
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
-                        <div href="/">
+                        <a href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="22"
@@ -45,7 +59,7 @@ class Services extends Component {
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
                           </svg>{" "}
                           Home
-                        </div>
+                        </a>
                       </li>
                       <li
                         className="breadcrumb-item active"

@@ -1,15 +1,25 @@
+"use client";
+
 import React, { Component } from "react";
 // import {Link} from 'react-router-dom';
 import { Accordion } from "react-bootstrap";
 
+//Fonts
+import "@/app/vendor/line-awesome/css/line-awesome.min.css";
+import "@/app/vendor/font-awesome/css/all.min.css";
+import "@/app/vendor/themify/themify-icons.css";
+
+// StyleSheet
+import "@/app/App.scss";
+
 // Import Images
-import bnrImg1 from "../../images/banner/img1.jpg";
-import waveBlue from "../../images/shap/wave-blue.png";
-import circleDots from "../../images/shap/circle-dots.png";
-import plusBlue from "../../images/shap/plus-blue.png";
-import servicesPic1 from "../../images/services/pic1.jpg";
-import pdf from "../../images/icon/pdf.png";
-import doc from "../../images/icon/doc.png";
+import bnrImg1 from "@/app/images/banner/img1.jpg";
+import waveBlue from "@/app/images/shap/wave-blue.png";
+import circleDots from "@/app/images/shap/circle-dots.png";
+import plusBlue from "@/app/images/shap/plus-blue.png";
+import servicesPic1 from "@/app/images/services/pic1.jpg";
+import pdf from "@/app/images/icon/pdf.png";
+import doc from "@/app/images/icon/doc.png";
 
 class ServiceDetail extends Component {
   render() {
@@ -27,7 +37,7 @@ class ServiceDetail extends Component {
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
-                        <div href="/">
+                        <a href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="22"
@@ -44,7 +54,7 @@ class ServiceDetail extends Component {
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
                           </svg>{" "}
                           Home
-                        </div>
+                        </a>
                       </li>
                       <li
                         className="breadcrumb-item active"
@@ -235,40 +245,40 @@ class ServiceDetail extends Component {
                     <div className="widget">
                       <ul className="service-menu">
                         <li className="active">
-                          <div href="/service-detail">
+                          <a href="/service-detail">
                             <span>Engine Diagnostics</span>
                             <i className="fa fa-angle-right"></i>
-                          </div>
+                          </a>
                         </li>
                         <li>
-                          <div href="/service-detail">
+                          <a href="/service-detail">
                             <span>Lube Oil and Filters</span>
                             <i className="fa fa-angle-right"></i>
-                          </div>
+                          </a>
                         </li>
                         <li>
-                          <div href="/service-detail">
+                          <a href="/service-detail">
                             <span>Belts and Hoses</span>
                             <i className="fa fa-angle-right"></i>
-                          </div>
+                          </a>
                         </li>
                         <li>
-                          <div href="/service-detail">
+                          <a href="/service-detail">
                             <span>Air Conditioning</span>
                             <i className="fa fa-angle-right"></i>
-                          </div>
+                          </a>
                         </li>
                         <li>
-                          <div href="/service-detail">
+                          <a href="/service-detail">
                             <span>Brake Repair</span>
                             <i className="fa fa-angle-right"></i>
-                          </div>
+                          </a>
                         </li>
                         <li>
-                          <div href="/service-detail">
+                          <a href="/service-detail">
                             <span>Tire and Wheel Services</span>
                             <i className="fa fa-angle-right"></i>
-                          </div>
+                          </a>
                         </li>
                       </ul>
                     </div>
