@@ -140,7 +140,7 @@ const Header = () => {
     {
       id: "services",
       name: "Services",
-      linkName: "",
+      linkName: "services",
 
       // subItems: [
       //   {
@@ -158,7 +158,7 @@ const Header = () => {
     {
       id: "blog",
       name: "Blog",
-      linkName: "#",
+      linkName: "blog-details",
 
       // subItems: [
       //   {
