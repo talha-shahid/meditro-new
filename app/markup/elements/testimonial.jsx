@@ -46,7 +46,7 @@ class testimonialSection extends Component {
                     <li data-member="1">
                       <div href="#">
                         <img
-                          style={{ borderRadius: "50%" }}
+                          style={{ borderRadius: "50%", width: "4rem" }}
                           src={testPic1.src}
                           alt=""
                         />
@@ -55,7 +55,7 @@ class testimonialSection extends Component {
                     <li data-member="2">
                       <div href="#">
                         <img
-                          style={{ borderRadius: "50%" }}
+                          style={{ borderRadius: "50%", width: "4rem" }}
                           src={testPic2.src}
                           alt=""
                         />
@@ -64,7 +64,7 @@ class testimonialSection extends Component {
                     <li data-member="3">
                       <div href="#">
                         <img
-                          style={{ borderRadius: "50%" }}
+                          style={{ borderRadius: "50%", width: "4rem" }}
                           src={testPic3.src}
                           alt=""
                         />
@@ -73,7 +73,7 @@ class testimonialSection extends Component {
                     <li data-member="4">
                       <div href="#">
                         <img
-                          style={{ borderRadius: "50%" }}
+                          style={{ borderRadius: "50%", width: "4rem" }}
                           src={testPic4.src}
                           alt=""
                         />
@@ -82,7 +82,7 @@ class testimonialSection extends Component {
                     <li data-member="5">
                       <div href="#">
                         <img
-                          style={{ borderRadius: "50%" }}
+                          style={{ borderRadius: "50%", width: "4rem" }}
                           src={testPic5.src}
                           alt=""
                         />
@@ -91,7 +91,7 @@ class testimonialSection extends Component {
                     <li data-member="6">
                       <div href="#">
                         <img
-                          style={{ borderRadius: "50%" }}
+                          style={{ borderRadius: "50%", width: "4rem" }}
                           src={testPic6.src}
                           alt=""
                         />
