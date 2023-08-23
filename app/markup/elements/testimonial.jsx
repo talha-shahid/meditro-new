@@ -45,32 +45,56 @@ class testimonialSection extends Component {
                   <ul>
                     <li data-member="1">
                       <div href="#">
-                        <img src={testPic1.src} alt="" />
+                        <img
+                          style={{ borderRadius: "50%" }}
+                          src={testPic1.src}
+                          alt=""
+                        />
                       </div>
                     </li>
                     <li data-member="2">
                       <div href="#">
-                        <img src={testPic2.src} alt="" />
+                        <img
+                          style={{ borderRadius: "50%" }}
+                          src={testPic2.src}
+                          alt=""
+                        />
                       </div>
                     </li>
                     <li data-member="3">
                       <div href="#">
-                        <img src={testPic3.src} alt="" />
+                        <img
+                          style={{ borderRadius: "50%" }}
+                          src={testPic3.src}
+                          alt=""
+                        />
                       </div>
                     </li>
                     <li data-member="4">
                       <div href="#">
-                        <img src={testPic4.src} alt="" />
+                        <img
+                          style={{ borderRadius: "50%" }}
+                          src={testPic4.src}
+                          alt=""
+                        />
                       </div>
                     </li>
                     <li data-member="5">
                       <div href="#">
-                        <img src={testPic5.src} alt="" />
+                        <img
+                          style={{ borderRadius: "50%" }}
+                          src={testPic5.src}
+                          alt=""
+                        />
                       </div>
                     </li>
                     <li data-member="6">
                       <div href="#">
-                        <img src={testPic6.src} alt="" />
+                        <img
+                          style={{ borderRadius: "50%" }}
+                          src={testPic6.src}
+                          alt=""
+                        />
                       </div>
                     </li>
                   </ul>

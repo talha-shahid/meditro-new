@@ -142,36 +142,36 @@ const Header = () => {
       name: "Services",
       linkName: "",
 
-      subItems: [
-        {
-          id: "services",
-          displayName: "Service",
-          linkName: "services",
-        },
-        {
-          id: "serviceDetail",
-          displayName: "Service Detail",
-          linkName: "service-detail",
-        },
-      ],
+      // subItems: [
+      //   {
+      //     id: "services",
+      //     displayName: "Service",
+      //     linkName: "services",
+      //   },
+      //   {
+      //     id: "serviceDetail",
+      //     displayName: "Service Detail",
+      //     linkName: "service-detail",
+      //   },
+      // ],
     },
     {
       id: "blog",
       name: "Blog",
       linkName: "#",
 
-      subItems: [
-        {
-          id: "blogGrid",
-          displayName: "Blogs",
-          linkName: "blog-grid",
-        },
-        {
-          id: "blogDetails",
-          displayName: "Blog Details",
-          linkName: "blog-details",
-        },
-      ],
+      // subItems: [
+      //   {
+      //     id: "blogGrid",
+      //     displayName: "Blogs",
+      //     linkName: "blog-grid",
+      //   },
+      //   {
+      //     id: "blogDetails",
+      //     displayName: "Blog Details",
+      //     linkName: "blog-details",
+      //   },
+      // ],
     },
     {
       id: "contactUs",

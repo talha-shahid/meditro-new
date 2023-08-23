@@ -460,9 +460,10 @@ class ServicesSliderSection extends Component {
                   <div className="icon-content">
                     <h3 className="ttr-title">Front Office Services</h3>
                     <p>
-                      Promedix manages scheduling, referrals, authorizations,
-                      and insurance verifications, enhancing the patient
-                      experience. (Note: Included with billing contract)
+                      Promedix expertly manages scheduling, referrals,
+                      authorizations, and insurance verifications, significantly
+                      enhancing the overall patient experience. (Included with
+                      billing contract for convenience)
                     </p>
                     <a href="/service-detail" className="btn btn-primary light">
                       View More

@@ -13,13 +13,13 @@ import animateWave from "../../images/shap/wave-blue.png";
 import testPic1 from "../../images/testimonials/pic1.jpg";
 import testPic2 from "../../images/testimonials/pic2.jpg";
 import testPic3 from "../../images/testimonials/pic3.jpg";
-import testPic4 from "../../images/testimonials/pic4.jpg";
-import testPic5 from "../../images/testimonials/pic5.jpg";
+// import testPic4 from "../../images/testimonials/pic4.jpg";
+// import testPic5 from "../../images/testimonials/pic5.jpg";
 import blogGridPic1 from "../../images/blog/grid/p1.jpg";
-import blogGridPic2 from "../../images/blog/grid/pic2.jpg";
+import blogGridPic2 from "../../images/blog/grid/p2.jpg";
 import blogGridPic3 from "../../images/blog/grid/p3.png";
-import blogGridPic4 from "../../images/blog/grid/pic4.jpg";
-import blogGridPic5 from "../../images/blog/grid/pic5.jpg";
+// import blogGridPic4 from "../../images/blog/grid/pic4.jpg";
+// import blogGridPic5 from "../../images/blog/grid/pic5.jpg";
 
 // Team Content
 const content = [
