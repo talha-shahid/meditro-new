@@ -70,7 +70,7 @@ const NewsItem = ({ item }) => {
     <div className="slider-item">
       <div className="blog-card">
         <div className="post-media">
-          <a href="/blog-details">
+          <a href={item.link}>
             <img src={item.thumb.src} alt="" />
           </a>
         </div>
@@ -88,7 +88,7 @@ const NewsItem = ({ item }) => {
             </li>
           </ul> */}
           <h5 className="post-title" style={{ textAlign: "center" }}>
-            <a href="/blog-details">{item.title}</a>
+            <a href={item.link}>{item.title}</a>
           </h5>
 
           {/* <Link to="/blog-details" className="btn btn-outline-primary btn-sm">
