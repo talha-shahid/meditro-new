@@ -1,8 +1,18 @@
+"use client";
+
 import React, { Component } from "react";
 // import { Link } from 'react-router-dom';
 
+// // Fonts
+import "@/app/vendor/line-awesome/css/line-awesome.min.css";
+import "@/app/vendor/font-awesome/css/all.min.css";
+import "@/app/vendor/themify/themify-icons.css";
+
+// StyleSheet
+import "@/app/App.scss";
+
 // Import Images
-import logo from "../../images/logo.png";
+import logo from "@/app/images/logo.png";
 
 class FormLogin extends Component {
   render() {
@@ -14,7 +24,7 @@ class FormLogin extends Component {
               <div className="col-xl-5 col-lg-6 col-md-8">
                 <div className="appointment-form form-wraper">
                   <div className="logo">
-                    <img src={logo} alt="" />
+                    <img src={logo.src} alt="" />
                   </div>
                   <form action="#">
                     <div className="form-group">

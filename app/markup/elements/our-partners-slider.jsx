@@ -5,23 +5,23 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 
 // Import Images
-import lingBg2 from "../../images/background/line-bg2.png";
-import animate1 from "../../images/shap/trangle-orange.png";
-import animate2 from "../../images/shap/square-dots-orange.png";
-import animateRotate from "../../images/shap/line-circle-blue.png";
-import animateWave from "../../images/shap/wave-blue.png";
-import testPic1 from "../../images/testimonials/pic1.jpg";
-import testPic2 from "../../images/testimonials/pic2.jpg";
-import testPic3 from "../../images/testimonials/pic3.jpg";
-import testPic4 from "../../images/testimonials/pic4.jpg";
-import testPic5 from "../../images/testimonials/pic5.jpg";
-import blogGridPic1 from "../../images/blog/grid/product1.jpg";
-import blogGridPic2 from "../../images/blog/grid/product2.jpg";
-// import blogGridPic1 from "../../images/blog/grid/pic1.jpg";
-// import blogGridPic2 from "../../images/blog/grid/pic2.jpg";
-import blogGridPic3 from "../../images/blog/grid/pic3.jpg";
-import blogGridPic4 from "../../images/blog/grid/pic4.jpg";
-import blogGridPic5 from "../../images/blog/grid/pic5.jpg";
+import lingBg2 from "@/app/images/background/line-bg2.png";
+import animate1 from "@/app/images/shap/trangle-orange.png";
+import animate2 from "@/app/images/shap/square-dots-orange.png";
+import animateRotate from "@/app/images/shap/line-circle-blue.png";
+import animateWave from "@/app/images/shap/wave-blue.png";
+import testPic1 from "@/app/images/testimonials/pic1.jpg";
+import testPic2 from "@/app/images/testimonials/pic2.jpg";
+import testPic3 from "@/app/images/testimonials/pic3.jpg";
+// import testPic4 from "../../images/testimonials/pic4.jpg";
+// import testPic5 from "../../images/testimonials/pic5.jpg";
+import blogGridPic1 from "@/app/images/blog/grid/product1.jpg";
+import blogGridPic2 from "@/app/images/blog/grid/product2.jpg";
+// import blogGridPic1 from "@/app/images/blog/grid/pic1.jpg";
+// import blogGridPic2 from "@/app/images/blog/grid/pic2.jpg";
+import blogGridPic3 from "@/app/images/blog/grid/pic3.jpg";
+// import blogGridPic4 from "@/app/images/blog/grid/pic4.jpg";
+// import blogGridPic5 from "@/app/images/blog/grid/pic5.jpg";
 
 // Team Content
 const content = [
@@ -46,50 +46,50 @@ const content = [
     title: "Why Is Skin Surgeon Considered Underrated",
     date: "19 July 2021",
   },
-  {
-    thumb: blogGridPic4,
-    authorPic: testPic4,
-    author: "Kalina Mollika",
-    title: "Dental Care for Women is very important",
-    date: "18 July 2021",
-  },
-  {
-    thumb: blogGridPic5,
-    authorPic: testPic5,
-    author: "Michel",
-    title: "Health Will Be A Thing Of The Past And Here's Why",
-    date: "17 July 2021",
-  },
+  // {
+  //   thumb: blogGridPic4,
+  //   authorPic: testPic4,
+  //   author: "Kalina Mollika",
+  //   title: "Dental Care for Women is very important",
+  //   date: "18 July 2021",
+  // },
+  // {
+  //   thumb: blogGridPic5,
+  //   authorPic: testPic5,
+  //   author: "Michel",
+  //   title: "Health Will Be A Thing Of The Past And Here's Why",
+  //   date: "17 July 2021",
+  // },
 ];
 
 const NewsItem = ({ item }) => {
   return (
     <div className="slider-item">
       <div className="blog-card">
-        <div className="post-media">
+        <div style={{ height: "15rem" }} className="post-media">
           <a href="/blog-details">
             <img src={item.thumb.src} alt="" />
           </a>
         </div>
         <div className="post-info">
-          <ul className="post-meta">
+          {/* <ul className="post-meta">
             <li className="author">
-              <a href="/blog-details">
-                <img src={item.authorPic.src} alt="" />
+              <Link to="/blog-details">
+                <img src={item.authorPic} alt="" />
                 {item.author}
-              </a>
+              </Link>
             </li>
             <li className="date">
               <i className="far fa-calendar-alt"></i>
               {item.date}
             </li>
-          </ul>
+          </ul> */}
           <h5 className="post-title">
             <a href="/blog-details">{item.title}</a>
           </h5>
-          <a href="/blog-details" className="btn btn-outline-primary btn-sm">
+          {/* <Link to="/blog-details" className="btn btn-outline-primary btn-sm">
             Read More <i className="btn-icon-bx fas fa-chevron-right"></i>
-          </a>
+          </Link> */}
         </div>
       </div>
     </div>
@@ -118,22 +118,22 @@ const settings = {
   ],
 };
 
-class OurProductsSection extends Component {
+class OurPartnersSection extends Component {
   render() {
     return (
       <>
         <section
           className="section-area section-sp1 blog-area"
           style={{
-            backgroundImage: "url(" + lingBg2.src + ")",
+            backgroundImage: "url(" + lingBg2 + ")",
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
         >
           <div className="container">
             <div className="heading-bx text-center">
-              <h6 className="title-ext text-secondary">Our Products</h6>
-              <h2 className="title">Some of our Products</h2>
+              <h6 className="title-ext text-secondary">Our Partners</h6>
+              <h2 className="title">Some of our Partners</h2>
             </div>
 
             <Slider
@@ -160,4 +160,4 @@ class OurProductsSection extends Component {
   }
 }
 
-export default OurProductsSection;
+export default OurPartnersSection;

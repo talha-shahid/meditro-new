@@ -19,7 +19,7 @@ import AppointmentSection from "@/app/markup/elements/appointment";
 import TestimonialSection from "@/app/markup/elements/testimonial";
 import ServicesSliderSection from "@/app/markup/elements/services-slider";
 import LatestNewsSection from "@/app/markup/elements/latest-news-slider";
-import OurProductsSection from "@/app/markup/elements/our-products-slider";
+import OurPartnersSection from "@/app/markup/elements/our-partners-slider";
 import PageScrollTop from "@/app/markup/elements/page-scroll-top";
 import BackToTop from "@/app/markup/elements/back-top";
 
@@ -38,7 +38,7 @@ export default function Home() {
 
       <TestimonialSection />
 
-      <OurProductsSection />
+      <OurPartnersSection />
 
       <LatestNewsSection />
 

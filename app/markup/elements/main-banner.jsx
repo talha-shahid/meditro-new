@@ -27,8 +27,8 @@ class aboutSection extends Component {
                   We provide all Medical Billing Services{" "}
                 </h6>
                 <h1>Maximizing Revenue Streams, Minimizing Worries</h1>
-                <a href="/about-us" className="btn btn-secondary btn-lg shadow">
-                  Schedual Meeting
+                <a href="/booking" className="btn btn-secondary btn-lg shadow">
+                  Schedule Meeting
                 </a>
               </div>
               <div className="col-lg-5 col-md-6 col-sm-5">

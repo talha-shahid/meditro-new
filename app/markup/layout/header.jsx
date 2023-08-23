@@ -62,43 +62,81 @@ const Header = () => {
       linkName: "#",
     },
     {
-      id: "pages",
-      name: "Pages",
+      id: "Specialities",
+      name: "Specialities",
       linkName: "#",
 
       subItems: [
         {
           id: "aboutus",
-          displayName: "About Us",
-          linkName: "about-us",
+          displayName: "Anesthesiology",
+          linkName: "#",
         },
         {
           id: "team",
-          displayName: "Our Team",
-          linkName: "team",
+          displayName: "Cardiology",
+          linkName: "#",
         },
         {
           id: "faq",
-          displayName: "FAQ's",
-          linkName: "faq",
+          displayName: "Chiropractics",
+          linkName: "#",
         },
         {
           id: "booking",
-          displayName: "Booking",
-          linkName: "booking",
+          displayName: "Dermatology",
+          linkName: "#",
         },
         {
           id: "error",
-          displayName: "Error 404",
-          linkName: "error-404",
+          displayName: "DME (Durable Medical Equipment)",
+          linkName: "#",
         },
         {
           id: "formLogin",
-          displayName: "Login / Register",
-          linkName: "form-login",
+          displayName: "Endocrinology",
+          linkName: "#",
         },
       ],
     },
+    // {
+    // 	id: 'pages',
+    // 	name: 'Pages',
+    // 	linkName: '#',
+
+    // 	subItems: [
+    // 		{
+    // 			id: 'aboutus',
+    // 			displayName: 'About Us',
+    // 			linkName: 'about-us'
+    // 		},
+    // 		{
+    // 			id: 'team',
+    // 			displayName: 'Our Team',
+    // 			linkName: 'team'
+    // 		},
+    // 		{
+    // 			id: 'faq',
+    // 			displayName: "FAQ's",
+    // 			linkName: 'faq'
+    // 		},
+    // 		{
+    // 			id: 'booking',
+    // 			displayName: 'Booking',
+    // 			linkName: 'booking'
+    // 		},
+    // 		{
+    // 			id: 'error',
+    // 			displayName: 'Error 404',
+    // 			linkName: 'error-404'
+    // 		},
+    // 		{
+    // 			id: 'formLogin',
+    // 			displayName: 'Login / Register',
+    // 			linkName: 'form-login'
+    // 		},
+    // 	]
+    // },
     {
       id: "services",
       name: "Services",
