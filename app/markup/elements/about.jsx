@@ -15,8 +15,8 @@ import ptImg5 from "@/app/images/shap/square-blue.png";
 //react icon import
 import { BsGraphDownArrow } from "react-icons/bs";
 import { MdAutoGraph } from "react-icons/md";
-import { FaWpforms } from "react-icons/fa";
-import { GrMoney } from "react-icons/gr";
+import { LuClipboardList } from "react-icons/lu";
+import { PiCoinsLight } from "react-icons/pi";
 import { TfiCommentsSmiley } from "react-icons/tfi";
 import { AiOutlineAim } from "react-icons/ai";
 import accuracyIcon from "@/app/images/icon/accuracy.jpg";
@@ -191,7 +191,7 @@ class aboutSection extends Component {
                               fill="#020288"
                             />
                           </svg> */}
-                          <FaWpforms style={{ width: "2.5rem" }} />
+                          <LuClipboardList style={{ width: "2.5rem" }} />
                         </span>
                       </div>
                       <div className="icon-content">
@@ -217,7 +217,7 @@ class aboutSection extends Component {
                               fill="#ffbdbc"
                             />
                           </svg> */}
-                          <GrMoney style={{ width: "2rem" }} />
+                          <PiCoinsLight style={{ width: "2rem" }} />
                         </span>
                       </div>
                       <div className="icon-content">

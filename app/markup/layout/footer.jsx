@@ -44,9 +44,11 @@ class aboutSection extends Component {
                     </div>
                     <div className="ft-contact">
                       <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Architecto sint voluptatibus unde dolorum
-                        consequatur saepe, nobis velit recusandae!
+                        PremierMedix stands as a comprehensive healthcare
+                        solutions provider, specializing in the areas of
+                        credentialing, medical billing, coding, and revenue
+                        cycle management. Our mission is to transform your
+                        aspirations into reality.
                       </p>
                       {/* <div className="contact-bx">
                         <div className="icon">
