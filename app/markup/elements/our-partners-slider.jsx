@@ -15,8 +15,8 @@ import testPic2 from "@/app/images/testimonials/pic2.jpg";
 import testPic3 from "@/app/images/testimonials/pic3.jpg";
 // import testPic4 from "../../images/testimonials/pic4.jpg";
 // import testPic5 from "../../images/testimonials/pic5.jpg";
-import blogGridPic1 from "@/app/images/blog/grid/product1.jpg";
-import blogGridPic2 from "@/app/images/blog/grid/product2.jpg";
+import blogGridPic1 from "@/app/images/blog/grid/product1.png";
+import blogGridPic2 from "@/app/images/blog/grid/product2.png";
 // import blogGridPic1 from "@/app/images/blog/grid/pic1.jpg";
 // import blogGridPic2 from "@/app/images/blog/grid/pic2.jpg";
 import blogGridPic3 from "@/app/images/blog/grid/pic3.jpg";
@@ -29,7 +29,7 @@ const content = [
     thumb: blogGridPic1,
     authorPic: testPic1,
     author: "John deo",
-    title: "Logo Octane: The Most Decent and Prime Creative Design ",
+    title: "Logo Octane",
     link: "https://logooctane.com/",
     date: "21 July 2021",
   },
@@ -37,7 +37,7 @@ const content = [
     thumb: blogGridPic2,
     authorPic: testPic2,
     author: "Peter Packer",
-    title: "Can you get a diflucan prescription online?",
+    title: "US Griffins",
     link: "https://logooctane.com/",
     date: "20 July 2021",
   },
@@ -69,7 +69,7 @@ const NewsItem = ({ item }) => {
   return (
     <div className="slider-item">
       <div className="blog-card">
-        <div style={{ height: "25rem" }} className="post-media">
+        <div className="post-media">
           <a href="/blog-details">
             <img src={item.thumb.src} alt="" />
           </a>
@@ -87,7 +87,7 @@ const NewsItem = ({ item }) => {
               {item.date}
             </li>
           </ul> */}
-          <h5 className="post-title">
+          <h5 className="post-title" style={{ textAlign: "center" }}>
             <a href="/blog-details">{item.title}</a>
           </h5>
 
