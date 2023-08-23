@@ -36,10 +36,10 @@ class aboutSection extends Component {
                       Revenue Cycle Experts
                     </h5>
                     <p>
-                      Connect with our revenue cycle specialists, a highly
-                      skilled team in medical billing, coding, and
-                      credentialing, for substantial revenue enhancement in your
-                      practice.
+                      Connect with our dedicated revenue cycle specialists—a
+                      highly skilled and experienced team in medical billing,
+                      coding, and credentialing—to substantially enhance revenue
+                      and efficiency in your medical practice.
                     </p>
                   </div>
                   <a href="/booking" className="btn btn-primary light">

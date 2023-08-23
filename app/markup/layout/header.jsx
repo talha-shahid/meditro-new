@@ -158,7 +158,7 @@ const Header = () => {
     {
       id: "blog",
       name: "Blog",
-      linkName: "",
+      linkName: "#",
 
       // subItems: [
       //   {

@@ -42,7 +42,7 @@ class aboutSection extends Component {
                         <img src={Logo.src} alt="" />
                       </a>
                     </div>
-                    <div className="ft-contact">
+                    <div style={{ width: "14rem" }} className="ft-contact">
                       <p>
                         PremierMedix stands as a comprehensive healthcare
                         solutions provider, specializing in the areas of
@@ -155,8 +155,7 @@ class aboutSection extends Component {
                               paddingTop: "1rem",
                             }}
                           >
-                            204 F Street <br />
-                            Davis CA 95616
+                            204 F Street Davis CA <br /> 95616
                           </p>
                         </a>
                       </li>
