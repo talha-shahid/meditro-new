@@ -15,9 +15,9 @@ import testPic2 from "../../images/testimonials/pic2.jpg";
 import testPic3 from "../../images/testimonials/pic3.jpg";
 import testPic4 from "../../images/testimonials/pic4.jpg";
 import testPic5 from "../../images/testimonials/pic5.jpg";
-import blogGridPic1 from "../../images/blog/grid/pic1.jpg";
+import blogGridPic1 from "../../images/blog/grid/p1.jpg";
 import blogGridPic2 from "../../images/blog/grid/pic2.jpg";
-import blogGridPic3 from "../../images/blog/grid/pic3.jpg";
+import blogGridPic3 from "../../images/blog/grid/p3.png";
 import blogGridPic4 from "../../images/blog/grid/pic4.jpg";
 import blogGridPic5 from "../../images/blog/grid/pic5.jpg";
 
@@ -27,37 +27,39 @@ const content = [
     thumb: blogGridPic1,
     authorPic: testPic1,
     author: "John deo",
-    title: "In this hospital there are special surgeon",
+    title: "Navigating ICD-10 2024 Conventions: A Comprehensive Guide",
     date: "21 July 2021",
   },
   {
     thumb: blogGridPic2,
     authorPic: testPic2,
     author: "Peter Packer",
-    title: "Can you get a diflucan prescription online?",
+    title:
+      "12 Essential Steps for Maximizing Reimbursements in Your Medical Practice",
     date: "20 July 2021",
   },
   {
     thumb: blogGridPic3,
     authorPic: testPic3,
     author: "Sonar Moyna",
-    title: "Why Is Skin Surgeon Considered Underrated",
+    title:
+      "Safeguarding Patient Trust: The Vital Importance of HIPAA Compliance in Data Protection",
     date: "19 July 2021",
   },
-  {
-    thumb: blogGridPic4,
-    authorPic: testPic4,
-    author: "Kalina Mollika",
-    title: "Dental Care for Women is very important",
-    date: "18 July 2021",
-  },
-  {
-    thumb: blogGridPic5,
-    authorPic: testPic5,
-    author: "Michel",
-    title: "Health Will Be A Thing Of The Past And Here's Why",
-    date: "17 July 2021",
-  },
+  // {
+  //   thumb: blogGridPic4,
+  //   authorPic: testPic4,
+  //   author: "Kalina Mollika",
+  //   title: "Dental Care for Women is very important",
+  //   date: "18 July 2021",
+  // },
+  // {
+  //   thumb: blogGridPic5,
+  //   authorPic: testPic5,
+  //   author: "Michel",
+  //   title: "Health Will Be A Thing Of The Past And Here's Why",
+  //   date: "17 July 2021",
+  // },
 ];
 
 const NewsItem = ({ item }) => {
@@ -65,7 +67,7 @@ const NewsItem = ({ item }) => {
     <div className="slider-item">
       <div className="blog-card">
         <div className="post-media">
-          <div href="/blog-details">
+          <div style={{ height: "15rem" }} href="/blog-details">
             <img src={item.thumb.src} alt="" />
           </div>
         </div>
@@ -85,9 +87,9 @@ const NewsItem = ({ item }) => {
           <h5 className="post-title">
             <div href="/blog-details">{item.title}</div>
           </h5>
-          <div href="/blog-details" className="btn btn-outline-primary btn-sm">
+          <a href="/blog-details" className="btn btn-outline-primary btn-sm">
             Read More <i className="btn-icon-bx fas fa-chevron-right"></i>
-          </div>
+          </a>
         </div>
       </div>
     </div>

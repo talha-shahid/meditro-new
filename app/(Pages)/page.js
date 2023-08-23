@@ -43,6 +43,7 @@ export default function Home() {
       <LatestNewsSection />
 
       <PageScrollTop />
+
       <BackToTop />
     </div>
   );

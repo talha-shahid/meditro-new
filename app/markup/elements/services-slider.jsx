@@ -289,7 +289,7 @@ class ServicesSliderSection extends Component {
             </h2>
           </div> */}
           <div className="heading-bx text-center">
-            <h6 className="title-ext text-secondary">Services</h6>
+            <h2 className="title-ext text-secondary">Services</h2>
             <h2 className="title">
               We Cover A Big Variety Of Medical Services
             </h2>

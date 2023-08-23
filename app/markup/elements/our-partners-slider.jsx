@@ -29,7 +29,8 @@ const content = [
     thumb: blogGridPic1,
     authorPic: testPic1,
     author: "John deo",
-    title: "In this hospital there are special surgeon",
+    title: "Logo Octane: The Most Decent and Prime Creative Design ",
+    link: "https://logooctane.com/",
     date: "21 July 2021",
   },
   {
@@ -37,6 +38,7 @@ const content = [
     authorPic: testPic2,
     author: "Peter Packer",
     title: "Can you get a diflucan prescription online?",
+    link: "https://logooctane.com/",
     date: "20 July 2021",
   },
   {
@@ -44,6 +46,7 @@ const content = [
     authorPic: testPic3,
     author: "Sonar Moyna",
     title: "Why Is Skin Surgeon Considered Underrated",
+    link: "https://logooctane.com/",
     date: "19 July 2021",
   },
   // {
@@ -66,7 +69,7 @@ const NewsItem = ({ item }) => {
   return (
     <div className="slider-item">
       <div className="blog-card">
-        <div style={{ height: "15rem" }} className="post-media">
+        <div style={{ height: "25rem" }} className="post-media">
           <a href="/blog-details">
             <img src={item.thumb.src} alt="" />
           </a>
@@ -87,6 +90,7 @@ const NewsItem = ({ item }) => {
           <h5 className="post-title">
             <a href="/blog-details">{item.title}</a>
           </h5>
+
           {/* <Link to="/blog-details" className="btn btn-outline-primary btn-sm">
             Read More <i className="btn-icon-bx fas fa-chevron-right"></i>
           </Link> */}
@@ -132,8 +136,7 @@ class OurPartnersSection extends Component {
         >
           <div className="container">
             <div className="heading-bx text-center">
-              <h6 className="title-ext text-secondary">Our Partners</h6>
-              <h2 className="title">Some of our Partners</h2>
+              <h2 className="title-ext text-secondary">Our Partners</h2>
             </div>
 
             <Slider

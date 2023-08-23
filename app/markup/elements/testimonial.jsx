@@ -82,23 +82,28 @@ class testimonialSection extends Component {
                     <div className="testimonial-bx">
                       <div className="testimonial-content">
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecena ssuspendisse
-                          ultrices gravida.
+                          PremierMedix has revolutionized my practice's
+                          financial health with their expert medical billing and
+                          coding services. Their dedication to accuracy,
+                          efficiency, and navigating industry changes has
+                          significantly improved our reimbursements. Partnering
+                          with PremierMedix has been a game-changer for
+                          optimizing revenue while maintaining focus on quality
+                          patient care. I highly recommend their services to
+                          fellow providers seeking excellence in
+                          practice management.
                         </p>
                       </div>
                       <div className="client-info">
-                        <h5 className="name">John Deo</h5>
-                        <p>patient</p>
+                        <h5 className="name">Dr. Emily Anderson</h5>
+                        {/* <p>patient</p> */}
                       </div>
                       <div className="quote-icon">
                         <i className="fas fa-quote-left"></i>
                       </div>
                     </div>
                   </div>
-                  <div className="slider-item">
+                  {/* <div className="slider-item">
                     <div className="testimonial-bx">
                       <div className="testimonial-content">
                         <p>
@@ -177,7 +182,7 @@ class testimonialSection extends Component {
                         <i className="fas fa-quote-left"></i>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </Slider>
               </div>
             </div>
