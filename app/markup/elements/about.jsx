@@ -109,7 +109,7 @@ class aboutSection extends Component {
                   </div>
                   <div className="col-lg-6 col-sm-6 mb-30 mb-sm-20">
                     <div className="feature-container feature-bx1 feature2">
-                      <div className="icon-md">
+                      <div className="icon-cell">
                         {/* <span className="icon-cell">
                           <svg
                             enableBackground="new 0 0 512 512"
@@ -130,10 +130,7 @@ class aboutSection extends Component {
                         <AiOutlineAim size={30} />
                       </div>
                       <div className="icon-content">
-                        <h4
-                          style={{ marginLeft: "2.5rem" }}
-                          className="ttr-title"
-                        >
+                        <h4 className="ttr-title">
                           Accuracy
                           <br /> 99%
                         </h4>
