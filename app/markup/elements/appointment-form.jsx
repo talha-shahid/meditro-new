@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 
+//react-icons imports
+import { BiChevronDown } from "react-icons/bi";
+
 class AppointmentForm extends Component {
   render() {
     return (
@@ -9,15 +12,17 @@ class AppointmentForm extends Component {
           <form action="#">
             <div className="form-group">
               <select className="form-select form-control">
-                <option defaultValue>Selecty Department</option>
-                <option defaultValue="1">One</option>
-                <option defaultValue="2">Two</option>
-                <option defaultValue="3">Three</option>
+                <option defaultValue>Medical Billing Services</option>
+                <option defaultValue="1">Credentialing & Enrollment</option>
+                <option defaultValue="2">Medical Billing Services</option>
+                <option defaultValue="3">Front Office Services</option>
+                <option defaultValue="3">Patient Billing</option>
+                <option defaultValue="3">Practice Audit</option>
               </select>
             </div>
             <div className="form-group">
               <select className="form-select form-control">
-                <option defaultValue>Select Doctor</option>
+                <option defaultValue>Individual Provider</option>
                 <option defaultValue="1">One</option>
                 <option defaultValue="2">Two</option>
                 <option defaultValue="3">Three</option>
@@ -28,13 +33,25 @@ class AppointmentForm extends Component {
                 type="text"
                 className="form-control"
                 placeholder="Your Name"
+                size="30"
+                required
               />
             </div>
             <div className="form-group">
               <input
-                type="number"
+                type="tel"
                 className="form-control"
                 placeholder="Phone Numbers"
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              />
+            </div>
+            <div className="form-group">
+              <input
+                type="email"
+                className="form-control"
+                placeholder="Your Email"
+                size="30"
+                required
               />
             </div>
             <div className="form-group">
