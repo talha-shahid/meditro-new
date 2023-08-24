@@ -61,44 +61,7 @@ const Header = () => {
       name: "Home",
       linkName: "#",
     },
-    {
-      id: "Specialities",
-      name: "Specialities",
-      linkName: "#",
 
-      subItems: [
-        {
-          id: "aboutus",
-          displayName: "Anesthesiology",
-          linkName: "#",
-        },
-        {
-          id: "team",
-          displayName: "Cardiology",
-          linkName: "#",
-        },
-        {
-          id: "faq",
-          displayName: "Chiropractics",
-          linkName: "#",
-        },
-        {
-          id: "booking",
-          displayName: "Dermatology",
-          linkName: "#",
-        },
-        {
-          id: "error",
-          displayName: "DME (Durable Medical Equipment)",
-          linkName: "#",
-        },
-        {
-          id: "formLogin",
-          displayName: "Endocrinology",
-          linkName: "#",
-        },
-      ],
-    },
     // {
     // 	id: 'pages',
     // 	name: 'Pages',
@@ -140,20 +103,78 @@ const Header = () => {
     {
       id: "services",
       name: "Services",
-      linkName: "services",
+      linkName: "service",
 
-      // subItems: [
-      //   {
-      //     id: "services",
-      //     displayName: "Service",
-      //     linkName: "services",
-      //   },
-      //   {
-      //     id: "serviceDetail",
-      //     displayName: "Service Detail",
-      //     linkName: "service-detail",
-      //   },
-      // ],
+      subItems: [
+        {
+          id: "serviceDetail",
+          displayName: "Credentialing & Enrollment",
+          linkName: "service-detail",
+        },
+        {
+          id: "serviceDetail",
+          displayName: "Medical Billing Services",
+          linkName: "service-detail",
+        },
+        {
+          id: "serviceDetail",
+          displayName: "Medical Coding Services",
+          linkName: "service-detail",
+        },
+        {
+          id: "serviceDetail",
+          displayName: "Front Office Services",
+          linkName: "service-detail",
+        },
+        {
+          id: "serviceDetail",
+          displayName: "Patient Billing",
+          linkName: "service-detail",
+        },
+        {
+          id: "serviceDetail",
+          displayName: "Practice Audit",
+          linkName: "service-detail",
+        },
+      ],
+    },
+    {
+      id: "Specialities",
+      name: "Specialities",
+      linkName: "#",
+
+      subItems: [
+        {
+          id: "aboutus",
+          displayName: "Anesthesiology",
+          linkName: "#",
+        },
+        {
+          id: "team",
+          displayName: "Cardiology",
+          linkName: "#",
+        },
+        {
+          id: "faq",
+          displayName: "Chiropractics",
+          linkName: "#",
+        },
+        {
+          id: "booking",
+          displayName: "Dermatology",
+          linkName: "#",
+        },
+        {
+          id: "error",
+          displayName: "DME (Durable Medical Equipment)",
+          linkName: "#",
+        },
+        {
+          id: "formLogin",
+          displayName: "Endocrinology",
+          linkName: "#",
+        },
+      ],
     },
     {
       id: "blog",
