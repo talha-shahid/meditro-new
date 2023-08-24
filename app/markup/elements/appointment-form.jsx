@@ -18,21 +18,26 @@ class AppointmentForm extends Component {
                 <option defaultValue="3">Front Office Services</option>
                 <option defaultValue="3">Patient Billing</option>
                 <option defaultValue="3">Practice Audit</option>
+                <option defaultValue="3">Other Services</option>
               </select>
             </div>
             <div className="form-group">
               <select className="form-select form-control">
                 <option defaultValue>Individual Provider</option>
-                <option defaultValue="1">One</option>
-                <option defaultValue="2">Two</option>
-                <option defaultValue="3">Three</option>
+                <option defaultValue="1">Private Practice</option>
+                <option defaultValue="2">Individual Provider</option>
+                <option defaultValue="3">Multispecialty Group</option>
+                <option defaultValue="3">Community Health Center</option>
+                <option defaultValue="3">Hospital</option>
+                <option defaultValue="3">Clinical Lab</option>
+                <option defaultValue="3">Other</option>
               </select>
             </div>
             <div className="form-group">
               <input
                 type="text"
                 className="form-control"
-                placeholder="Your Name"
+                placeholder="Full Name"
                 size="30"
                 required
               />
@@ -45,7 +50,7 @@ class AppointmentForm extends Component {
                 pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
               />
             </div>
-            <div className="form-group">
+            {/* <div className="form-group">
               <input
                 type="email"
                 className="form-control"
@@ -53,7 +58,7 @@ class AppointmentForm extends Component {
                 size="30"
                 required
               />
-            </div>
+            </div> */}
             <div className="form-group">
               <input type="date" className="form-control" />
             </div>

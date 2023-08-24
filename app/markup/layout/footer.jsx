@@ -4,7 +4,7 @@ import React, { Component } from "react";
 // import { Link } from "react-router-dom";
 
 // Images
-import Logo from "@/app/images/logo.png";
+import Logo from "@/app/images/logo-n.png";
 import footerBg from "@/app/images/background/footer.jpg";
 import ptImg1 from "@/app/images/shap/wave-blue.png";
 import ptImg2 from "@/app/images/shap/circle-dots.png";

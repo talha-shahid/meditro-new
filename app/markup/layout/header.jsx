@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import Sticky from "react-stickynode";
 
 // Images
-import logo from "../../images/logo.png";
+import logo from "../../images/logo-n.png";
 import logoWhite from "../../images/logo-white.png";
 
 const Header = () => {

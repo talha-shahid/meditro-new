@@ -6,7 +6,7 @@ import React, { Component } from "react";
 // Import Images
 import aboutThumb1 from "@/app/images/about/p1.jpg";
 import aboutThumb2 from "@/app/images/about/pic-2.jpg";
-import aboutThumb3 from "@/app/images/about/pic-3.jpg";
+import aboutThumb3 from "@/app/images/about/p3.jpg";
 import ptImg1 from "@/app/images/shap/wave-orange.png";
 import ptImg2 from "@/app/images/shap/circle-small-blue.png";
 import ptImg4 from "@/app/images/shap/square-dots-orange.png";
