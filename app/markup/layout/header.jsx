@@ -103,7 +103,7 @@ const Header = () => {
     {
       id: "services",
       name: "Services",
-      linkName: "service",
+      linkName: "#",
 
       subItems: [
         {
@@ -147,39 +147,39 @@ const Header = () => {
         {
           id: "aboutus",
           displayName: "Anesthesiology",
-          linkName: "#",
+          linkName: "service-detail",
         },
         {
           id: "team",
           displayName: "Cardiology",
-          linkName: "#",
+          linkName: "service-detail",
         },
         {
           id: "faq",
           displayName: "Chiropractics",
-          linkName: "#",
+          linkName: "service-detail",
         },
         {
           id: "booking",
           displayName: "Dermatology",
-          linkName: "#",
+          linkName: "service-detail",
         },
         {
           id: "error",
           displayName: "DME (Durable Medical Equipment)",
-          linkName: "#",
+          linkName: "service-detail",
         },
         {
           id: "formLogin",
           displayName: "Endocrinology",
-          linkName: "#",
+          linkName: "service-detail",
         },
       ],
     },
     {
       id: "blog",
       name: "Blog",
-      linkName: "blog-details",
+      linkName: "blog-grid",
 
       // subItems: [
       //   {
