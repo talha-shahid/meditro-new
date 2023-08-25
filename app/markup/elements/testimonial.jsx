@@ -127,6 +127,131 @@ class testimonialSection extends Component {
                       </div>
                     </div>
                   </div>
+                  <div className="slider-item">
+                    <div className="testimonial-bx">
+                      <div className="testimonial-content">
+                        <p>
+                          PremierMedix has revolutionized my practice's
+                          financial health with their expert medical billing and
+                          coding services. Their dedication to accuracy,
+                          efficiency, and navigating industry changes has
+                          significantly improved our reimbursements. Partnering
+                          with PremierMedix has been a game-changer for
+                          optimizing revenue while maintaining focus on quality
+                          patient care. I highly recommend their services to
+                          fellow providers seeking excellence in
+                          practice management.
+                        </p>
+                      </div>
+                      <div className="client-info">
+                        <h5 className="name">Dr. Emily Anderson</h5>
+                        {/* <p>patient</p> */}
+                      </div>
+                      <div className="quote-icon">
+                        <i className="fas fa-quote-left"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slider-item">
+                    <div className="testimonial-bx">
+                      <div className="testimonial-content">
+                        <p>
+                          PremierMedix has revolutionized my practice's
+                          financial health with their expert medical billing and
+                          coding services. Their dedication to accuracy,
+                          efficiency, and navigating industry changes has
+                          significantly improved our reimbursements. Partnering
+                          with PremierMedix has been a game-changer for
+                          optimizing revenue while maintaining focus on quality
+                          patient care. I highly recommend their services to
+                          fellow providers seeking excellence in
+                          practice management.
+                        </p>
+                      </div>
+                      <div className="client-info">
+                        <h5 className="name">Dr. Emily Anderson</h5>
+                        {/* <p>patient</p> */}
+                      </div>
+                      <div className="quote-icon">
+                        <i className="fas fa-quote-left"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slider-item">
+                    <div className="testimonial-bx">
+                      <div className="testimonial-content">
+                        <p>
+                          PremierMedix has revolutionized my practice's
+                          financial health with their expert medical billing and
+                          coding services. Their dedication to accuracy,
+                          efficiency, and navigating industry changes has
+                          significantly improved our reimbursements. Partnering
+                          with PremierMedix has been a game-changer for
+                          optimizing revenue while maintaining focus on quality
+                          patient care. I highly recommend their services to
+                          fellow providers seeking excellence in
+                          practice management.
+                        </p>
+                      </div>
+                      <div className="client-info">
+                        <h5 className="name">Dr. Emily Anderson</h5>
+                        {/* <p>patient</p> */}
+                      </div>
+                      <div className="quote-icon">
+                        <i className="fas fa-quote-left"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slider-item">
+                    <div className="testimonial-bx">
+                      <div className="testimonial-content">
+                        <p>
+                          PremierMedix has revolutionized my practice's
+                          financial health with their expert medical billing and
+                          coding services. Their dedication to accuracy,
+                          efficiency, and navigating industry changes has
+                          significantly improved our reimbursements. Partnering
+                          with PremierMedix has been a game-changer for
+                          optimizing revenue while maintaining focus on quality
+                          patient care. I highly recommend their services to
+                          fellow providers seeking excellence in
+                          practice management.
+                        </p>
+                      </div>
+                      <div className="client-info">
+                        <h5 className="name">Dr. Emily Anderson</h5>
+                        {/* <p>patient</p> */}
+                      </div>
+                      <div className="quote-icon">
+                        <i className="fas fa-quote-left"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="slider-item">
+                    <div className="testimonial-bx">
+                      <div className="testimonial-content">
+                        <p>
+                          PremierMedix has revolutionized my practice's
+                          financial health with their expert medical billing and
+                          coding services. Their dedication to accuracy,
+                          efficiency, and navigating industry changes has
+                          significantly improved our reimbursements. Partnering
+                          with PremierMedix has been a game-changer for
+                          optimizing revenue while maintaining focus on quality
+                          patient care. I highly recommend their services to
+                          fellow providers seeking excellence in
+                          practice management.
+                        </p>
+                      </div>
+                      <div className="client-info">
+                        <h5 className="name">Dr. Emily Anderson</h5>
+                        {/* <p>patient</p> */}
+                      </div>
+                      <div className="quote-icon">
+                        <i className="fas fa-quote-left"></i>
+                      </div>
+                    </div>
+                  </div>
                   {/* <div className="slider-item">
                     <div className="testimonial-bx">
                       <div className="testimonial-content">

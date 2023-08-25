@@ -176,7 +176,7 @@ class aboutSection extends Component {
                               paddingTop: "1rem",
                             }}
                           >
-                            +92123456
+                            +14244332048
                           </p>
                         </a>
                       </li>
@@ -197,7 +197,7 @@ class aboutSection extends Component {
                               paddingTop: "1rem",
                             }}
                           >
-                            +92123456
+                            +14244332048
                           </p>
                         </a>
                       </li>

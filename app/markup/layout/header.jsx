@@ -239,7 +239,7 @@ const Header = () => {
                 </li>
                 <li className="num-bx">
                   <a href="tel:(+01)999888777">
-                    <i className="fas fa-phone-alt"></i> (+01) 999 888 777
+                    <i className="fas fa-phone-alt"></i> +14244332048
                   </a>
                 </li>
                 <li className="btn-area">
