@@ -23,18 +23,18 @@ import plusBlue from "@/app/images/shap/plus-blue.png";
 import testPic1 from "@/app/images/testimonials/pic1.jpg";
 import testPic2 from "@/app/images/testimonials/pic2.jpg";
 import testPic3 from "@/app/images/testimonials/pic3.jpg";
-import testPic4 from "@/app/images/testimonials/pic4.jpg";
-import testPic5 from "@/app/images/testimonials/pic5.jpg";
-import testPic6 from "@/app/images/testimonials/pic6.jpg";
-import blogGridPic1 from "@/app/images/blog/grid/pic1.jpg";
-import blogGridPic2 from "@/app/images/blog/grid/pic2.jpg";
-import blogGridPic3 from "@/app/images/blog/grid/pic3.jpg";
-import blogGridPic4 from "@/app/images/blog/grid/pic4.jpg";
-import blogGridPic5 from "@/app/images/blog/grid/pic5.jpg";
-import blogGridPic6 from "@/app/images/blog/grid/pic6.jpg";
-import blogGridPic7 from "@/app/images/blog/grid/pic7.jpg";
-import blogGridPic8 from "@/app/images/blog/grid/pic8.jpg";
-import blogGridPic9 from "@/app/images/blog/grid/pic9.jpg";
+// import testPic4 from "@/app/images/testimonials/pic4.jpg";
+// import testPic5 from "@/app/images/testimonials/pic5.jpg";
+// import testPic6 from "@/app/images/testimonials/pic6.jpg";
+import blogGridPic1 from "@/app/images/blog/grid/p1.jpg";
+import blogGridPic2 from "@/app/images/blog/grid/p2.jpg";
+import blogGridPic3 from "@/app/images/blog/grid/p3.png";
+// import blogGridPic4 from "@/app/images/blog/grid/pic4.jpg";
+// import blogGridPic5 from "@/app/images/blog/grid/pic5.jpg";
+// import blogGridPic6 from "@/app/images/blog/grid/pic6.jpg";
+// import blogGridPic7 from "@/app/images/blog/grid/pic7.jpg";
+// import blogGridPic8 from "@/app/images/blog/grid/pic8.jpg";
+// import blogGridPic9 from "@/app/images/blog/grid/pic9.jpg";
 
 // Blog Content
 const blogPost = [

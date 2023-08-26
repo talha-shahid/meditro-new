@@ -187,27 +187,39 @@ const Header = () => {
       ],
     },
     {
-      id: "blog",
-      name: "Blog",
-      linkName: "blogs",
+      id: "resources",
+      name: "Resources",
+      linkName: "#",
 
-      // subItems: [
-      //   {
-      //     id: "blogGrid",
-      //     displayName: "Blogs",
-      //     linkName: "blog-grid",
-      //   },
-      //   {
-      //     id: "blogDetails",
-      //     displayName: "Blog Details",
-      //     linkName: "blog-details",
-      //   },
-      // ],
+      subItems: [
+        {
+          id: "resources",
+          displayName: "Blogs",
+          linkName: "blogs",
+        },
+        {
+          id: "resources",
+          displayName: "Brochures",
+          linkName: "#",
+        },
+      ],
     },
     {
-      id: "contactUs",
-      name: "Contact Us",
-      linkName: "contact-us",
+      id: "ourCompany",
+      name: "Our Company",
+      linkName: "#",
+      subItems: [
+        {
+          id: "ourCompany",
+          displayName: "Contact Us",
+          linkName: "contact-us",
+        },
+        {
+          id: "ourCompany",
+          displayName: "About us",
+          linkName: "about-us",
+        },
+      ],
     },
   ];
 

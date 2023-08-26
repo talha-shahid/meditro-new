@@ -83,6 +83,10 @@ function BlogDetails({ params }) {
                         Home
                       </a>
                     </li>
+
+                    <li className="breadcrumb-item active" aria-current="page">
+                      <a href="/blogs">Blogs</a>
+                    </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Blog Details
                     </li>
@@ -101,8 +105,8 @@ function BlogDetails({ params }) {
             <div className="row">
               <div className="col-md-12 col-lg-7 col-xl-8 mb-30 mb-md-50">
                 <div className="blog-card blog-single">
-                  <div className="post-media">
-                    <img src={blogDefaultPic1.src} alt="" />
+                  <div style={{ height: "45rem" }} className="post-media">
+                    <img src={blog.img} alt="" />
                   </div>
                   <div className="info-bx">
                     <ul className="post-meta">
