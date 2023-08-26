@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 // Import Images
 import testPic2 from "../../images/testimonials/pic2.jpg";
+import Link from "next/link";
 
 class AuthorProfile extends Component {
   render() {
@@ -20,40 +21,40 @@ class AuthorProfile extends Component {
               </p>
               <ul className="social-media mb-0">
                 <li>
-                  <a
+                  <Link
                     rel="noreferrer"
                     target="_blank"
                     href="https://www.facebook.com/"
                   >
                     <i className="fab fa-facebook-f"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     rel="noreferrer"
                     target="_blank"
                     href="https://www.instagram.com/"
                   >
                     <i className="fab fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     rel="noreferrer"
                     target="_blank"
                     href="https://www.linkedin.com/"
                   >
                     <i className="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     rel="noreferrer"
                     target="_blank"
                     href="https://twitter.com/"
                   >
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

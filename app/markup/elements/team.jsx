@@ -9,6 +9,7 @@ import ptImg2 from "../../images/shap/square-dots-orange.png";
 import ptImg3 from "../../images/shap/line-circle-blue.png";
 import ptImg4 from "../../images/shap/wave-blue.png";
 import ptImg5 from "../../images/shap/circle-dots.png";
+import Link from "next/link";
 
 const teamMembers = [
   {
@@ -70,7 +71,7 @@ class TeamSection extends Component {
                       <ul className="social-media mt-3">
                         {teamMember.socialMedia.map((social, index) => (
                           <li key={index}>
-                            <a
+                            <Link
                               rel="noreferrer"
                               target="_blank"
                               href={social.link}
@@ -78,7 +79,7 @@ class TeamSection extends Component {
                               <i
                                 className={`fab fa-${social.platform.toLowerCase()}`}
                               />
-                            </a>
+                            </Link>
                           </li>
                         ))}
                       </ul>

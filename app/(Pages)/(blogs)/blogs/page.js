@@ -29,6 +29,7 @@ import testPic3 from "@/app/images/testimonials/pic3.jpg";
 import blogGridPic1 from "@/app/images/blog/grid/p1.jpg";
 import blogGridPic2 from "@/app/images/blog/grid/p2.jpg";
 import blogGridPic3 from "@/app/images/blog/grid/p3.png";
+import Link from "next/link";
 // import blogGridPic4 from "@/app/images/blog/grid/pic4.jpg";
 // import blogGridPic5 from "@/app/images/blog/grid/pic5.jpg";
 // import blogGridPic6 from "@/app/images/blog/grid/pic6.jpg";
@@ -124,7 +125,7 @@ class BlogGrid extends Component {
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
-                        <a href="/">
+                        <Link href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="22"
@@ -141,7 +142,7 @@ class BlogGrid extends Component {
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
                           </svg>{" "}
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li
                         className="breadcrumb-item active"
@@ -195,13 +196,13 @@ class BlogGrid extends Component {
                             {blogPost.title}
                           </div>
                         </h5>
-                        <a
+                        <Link
                           href={`/blogs/${blogPost.slug}`}
                           className="btn btn-outline-primary btn-sm"
                         >
                           Read More{" "}
                           <i className="btn-icon-bx fas fa-chevron-right"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -212,19 +213,19 @@ class BlogGrid extends Component {
                   <div className="pagination-bx text-center mb-30 clearfix">
                     <ul className="pagination">
                       <li className="previous">
-                        <a href="#">Prev</a>
+                        <Link href="#">Prev</Link>
                       </li>
                       <li className="active">
-                        <a href="#">1</a>
+                        <Link href="#">1</Link>
                       </li>
                       <li>
-                        <a href="#">2</a>
+                        <Link href="#">2</Link>
                       </li>
                       <li>
-                        <a href="#">3</a>
+                        <Link href="#">3</Link>
                       </li>
                       <li className="next">
-                        <a href="#">Next</a>
+                        <Link href="#">Next</Link>
                       </li>
                     </ul>
                   </div>

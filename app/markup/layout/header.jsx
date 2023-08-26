@@ -7,6 +7,7 @@ import Sticky from "react-stickynode";
 // Images
 import logo from "../../images/logo-n.png";
 import logoWhite from "../../images/logo-white.png";
+import Link from "next/link";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -229,9 +230,9 @@ const Header = () => {
         <div className="menu-bar clearfix">
           <div className="container-fluid clearfix">
             <div className="menu-logo logo-dark">
-              <a href="/">
+              <Link href="/">
                 <img src={logo.src} alt="" />
-              </a>
+              </Link>
             </div>
 
             <button
@@ -260,16 +261,16 @@ const Header = () => {
                   </button>
                 </li>
                 <li className="num-bx">
-                  <a href="tel:(+01)999888777">
+                  <Link href="tel:(+01)999888777">
                     <i className="fas fa-phone-alt"></i>
                     +1 510 209 3111
-                  </a>
+                  </Link>
                 </li>
                 <li className="btn-area">
-                  <a href="/contact-us" className="btn btn-primary shadow">
+                  <Link href="/contact-us" className="btn btn-primary shadow">
                     CONTACT US{" "}
                     <i className="btn-icon-bx fas fa-chevron-right"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -281,9 +282,9 @@ const Header = () => {
               id="menuDropdown"
             >
               <div className="menu-logo">
-                <a href="/">
+                <Link href="/">
                   <img src={logoWhite.src} alt="" />
-                </a>
+                </Link>
               </div>
 
               <ul className="nav navbar-nav">
@@ -294,29 +295,29 @@ const Header = () => {
                     onClick={() => toggleSubmenu(item.id)}
                   >
                     {item.subItems ? (
-                      <a href="#">
+                      <Link href="#">
                         {item.name}
                         <i className={`fas fa-plus`}></i>
-                      </a>
+                      </Link>
                     ) : (
-                      <a
+                      <Link
                         href={`/${item.linkName}`}
                         onClick={handleMenuLinkClick}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     )}
                     {(isMobileView || activeItem === item.id) &&
                       item.subItems && (
                         <ul className="sub-menu">
                           {item.subItems.map((subItem, index) => (
                             <li key={subItem.id}>
-                              <a
+                              <Link
                                 href={`/${subItem.linkName}`}
                                 onClick={handleMenuLinkClick}
                               >
                                 <span>{subItem.displayName}</span>
-                              </a>
+                              </Link>
                             </li>
                           ))}
                         </ul>
@@ -327,44 +328,44 @@ const Header = () => {
 
               <ul className="social-media">
                 <li>
-                  <a
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.facebook.com/"
                     className="btn btn-primary"
                   >
                     <i className="fab fa-facebook-f"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.google.com/"
                     className="btn btn-primary"
                   >
                     <i className="fab fa-google"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/"
                     className="btn btn-primary"
                   >
                     <i className="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     target="_blank"
                     rel="noreferrer"
                     href="https://twitter.com/"
                     className="btn btn-primary"
                   >
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
 

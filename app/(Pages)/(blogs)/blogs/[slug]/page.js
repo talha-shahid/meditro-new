@@ -11,19 +11,19 @@ import "slick-carousel/slick/slick-theme.css";
 
 import "@/app/App.scss";
 
-import AuthorProfile from "@/app/markup/elements/author-profile";
-import CommentList from "@/app/markup/elements/comment-list";
-import CommentRespond from "@/app/markup/elements/comment-respond";
+// import AuthorProfile from "@/app/markup/elements/author-profile";
+// import CommentList from "@/app/markup/elements/comment-list";
+// import CommentRespond from "@/app/markup/elements/comment-respond";
 import WidgetTag from "@/app/markup/elements/widget-tag";
 import WidgetSearch from "@/app/markup/elements/widget-search";
-import WidgetGallery from "@/app/markup/elements/widget-gallery";
+// import WidgetGallery from "@/app/markup/elements/widget-gallery";
 import WidgetRecentPosts from "@/app/markup/elements/widget-recent-posts";
 
 import bnrImg1 from "@/app/images/banner/img1.jpg";
 import waveBlue from "@/app/images/shap/wave-blue.png";
 import circleDots from "@/app/images/shap/circle-dots.png";
 import plusBlue from "@/app/images/shap/plus-blue.png";
-import blogDefaultPic1 from "@/app/images/blog/default/pic1.jpg";
+// import blogDefaultPic1 from "@/app/images/blog/default/pic1.jpg";
 import testPic3 from "@/app/images/testimonials/pic3.jpg";
 // import galleryPic2 from "@/app/images/gallery/pic2.jpg";
 // import galleryPic5 from "@/app/images/gallery/pic5.jpg";
@@ -34,6 +34,7 @@ import testPic3 from "@/app/images/testimonials/pic3.jpg";
 
 //importing static data form blog.json file
 import blogDetails from "../blog.json";
+import Link from "next/link";
 
 function compare(params) {
   function findPostBySlug(slug) {
@@ -64,7 +65,7 @@ function BlogDetails({ params }) {
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
                   <ul className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <a href="/">
+                      <Link href="/">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="22"
@@ -81,11 +82,11 @@ function BlogDetails({ params }) {
                           <polyline points="9 22 9 12 15 12 15 22"></polyline>
                         </svg>{" "}
                         Home
-                      </a>
+                      </Link>
                     </li>
 
                     <li className="breadcrumb-item active" aria-current="page">
-                      <a href="/blogs">Blogs</a>
+                      <Link href="/blogs">Blogs</Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Blog Details
@@ -111,9 +112,9 @@ function BlogDetails({ params }) {
                   <div className="info-bx">
                     <ul className="post-meta">
                       <li className="author">
-                        <a href="/blog-details">
+                        <Link href="/blog-details">
                           <img src={testPic3.src} alt="" /> Sonar Moyna
-                        </a>
+                        </Link>
                       </li>
                       <li className="date">
                         <i className="far fa-calendar-alt"></i> 19 July 2021
@@ -179,9 +180,9 @@ function BlogDetails({ params }) {
                     <div className="ttr-post-footer">
                       <div className="post-tags">
                         <strong>Tags:</strong>
-                        <a href="#">Health</a>
-                        <a href="#">Growth</a>
-                        <a href="#">Life</a>
+                        <Link href="#">Health</Link>
+                        <Link href="#">Growth</Link>
+                        <Link href="#">Life</Link>
                       </div>
                       <div className="share-post ml-auto">
                         <ul className="social-media mb-0">
@@ -189,40 +190,40 @@ function BlogDetails({ params }) {
                             <strong>Share:</strong>
                           </li>
                           <li>
-                            <a
+                            <Link
                               rel="noreferrer"
                               target="_blank"
                               href="https://www.facebook.com/"
                             >
                               <i className="fab fa-facebook-f"></i>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               rel="noreferrer"
                               target="_blank"
                               href="https://www.instagram.com/"
                             >
                               <i className="fab fa-instagram"></i>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               rel="noreferrer"
                               target="_blank"
                               href="https://www.linkedin.com/"
                             >
                               <i className="fab fa-linkedin-in"></i>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
+                            <Link
                               rel="noreferrer"
                               target="_blank"
                               href="https://twitter.com/"
                             >
                               <i className="fab fa-twitter"></i>
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -230,7 +231,7 @@ function BlogDetails({ params }) {
                   </div>
                 </div>
 
-                <AuthorProfile />
+                <authorProfile />
 
                 {/* <div className="clear" id="comment-list">
                   <div className="comments-area" id="comments">

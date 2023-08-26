@@ -27,6 +27,7 @@ import bnrImg1 from "@/app/images/banner/img1.jpg";
 import waveBlue from "@/app/images/shap/wave-blue.png";
 import circleDots from "@/app/images/shap/circle-dots.png";
 import plusBlue from "@/app/images/shap/plus-blue.png";
+import Link from "next/link";
 
 class AboutUs extends Component {
   render() {
@@ -44,7 +45,7 @@ class AboutUs extends Component {
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
-                        <a href="/">
+                        <Link href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="22"
@@ -61,7 +62,7 @@ class AboutUs extends Component {
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
                           </svg>{" "}
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li
                         className="breadcrumb-item active"

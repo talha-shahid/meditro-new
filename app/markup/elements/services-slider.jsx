@@ -17,6 +17,7 @@ import { PiDnaLight } from "react-icons/pi";
 import { TfiComments } from "react-icons/tfi";
 import { LiaFileInvoiceDollarSolid } from "react-icons/lia";
 import { AiOutlineAudit } from "react-icons/ai";
+import Link from "next/link";
 
 class ServicesSliderSection extends Component {
   render() {
@@ -313,12 +314,12 @@ class ServicesSliderSection extends Component {
                       payer credentialing, expanding provider networks and
                       ensuring financial stability.
                     </p>
-                    <a
+                    <Link
                       href={`/services/credentialing-enrollment`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -339,12 +340,12 @@ class ServicesSliderSection extends Component {
                       services, including scheduling, eligibility checks,
                       claims, payment management, and financial reporting.
                     </p>
-                    <a
+                    <Link
                       href={`/services/medical-billing-services`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -365,12 +366,12 @@ class ServicesSliderSection extends Component {
                       meeting industry standards and CMS guidelines with
                       exceptional accuracy and reliability.
                     </p>
-                    <a
+                    <Link
                       href={`/services/medical-coding-services`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -392,12 +393,12 @@ class ServicesSliderSection extends Component {
                       enhancing the overall patient experience. (Included with
                       billing contract for convenience)
                     </p>
-                    <a
+                    <Link
                       href={`/services/front-office-services`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -419,12 +420,12 @@ class ServicesSliderSection extends Component {
                       maximize payments, and focus on patient care while we
                       expertly manage the administrative workload.
                     </p>
-                    <a
+                    <Link
                       href={`/services/patient-billing`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -446,12 +447,12 @@ class ServicesSliderSection extends Component {
                       along with revenue-boosting suggestions to enhance your
                       revenue.
                     </p>
-                    <a
+                    <Link
                       href={`/services/practice-audit`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

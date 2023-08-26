@@ -23,6 +23,7 @@ import { LiaFileInvoiceDollarSolid } from "react-icons/lia";
 import { AiOutlineAudit } from "react-icons/ai";
 
 import services from "./services.json";
+import Link from "next/link";
 
 function Services() {
   return (
@@ -39,7 +40,7 @@ function Services() {
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
                   <ul className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <a href="/">
+                      <Link href="/">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="22"
@@ -56,7 +57,7 @@ function Services() {
                           <polyline points="9 22 9 12 15 12 15 22"></polyline>
                         </svg>{" "}
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Services
@@ -91,12 +92,12 @@ function Services() {
                       payer credentialing, expanding provider networks and
                       ensuring financial stability.
                     </p>
-                    <a
+                    <Link
                       href={`/services/${services[0].slug}`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -117,12 +118,12 @@ function Services() {
                       services, including scheduling, eligibility checks,
                       claims, payment management, and financial reporting.
                     </p>
-                    <a
+                    <Link
                       href={`/services/${services[1].slug}`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -143,12 +144,12 @@ function Services() {
                       meeting industry standards and CMS guidelines with
                       exceptional accuracy and reliability.
                     </p>
-                    <a
+                    <Link
                       href={`/services/${services[2].slug}`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -170,12 +171,12 @@ function Services() {
                       enhancing the overall patient experience. (Included with
                       billing contract for convenience)
                     </p>
-                    <a
+                    <Link
                       href={`/services/${services[3].slug}`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -197,12 +198,12 @@ function Services() {
                       maximize payments, and focus on patient care while we
                       expertly manage the administrative workload.
                     </p>
-                    <a
+                    <Link
                       href={`/services/${services[4].slug}`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -224,12 +225,12 @@ function Services() {
                       along with revenue-boosting suggestions to enhance your
                       revenue.
                     </p>
-                    <a
+                    <Link
                       href={`/services/${services[5].slug}`}
                       className="btn btn-primary light"
                     >
                       View More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

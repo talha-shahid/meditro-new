@@ -29,6 +29,7 @@ import teamMember3 from "@/app/images/team/member3.jpg";
 import teamMember4 from "@/app/images/team/member4.jpg";
 import teamMember5 from "@/app/images/team/member5.jpg";
 import teamMember6 from "@/app/images/team/member6.jpg";
+import Link from "next/link";
 
 // Team Content
 const teamMembers = [
@@ -110,7 +111,7 @@ class Team extends Component {
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
-                        <a href="/">
+                        <Link href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="22"
@@ -127,7 +128,7 @@ class Team extends Component {
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
                           </svg>{" "}
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li
                         className="breadcrumb-item active"

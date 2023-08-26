@@ -13,6 +13,7 @@ import "@/app/vendor/themify/themify-icons.css";
 
 // StyleSheet
 import "@/app/App.scss";
+import Link from "next/link";
 
 class FormLogin extends Component {
   render() {
@@ -49,9 +50,9 @@ class FormLogin extends Component {
                       >
                         login
                       </div>
-                      <a href="/form-forget-password" data-toggle="tab">
+                      <Link href="/form-forget-password" data-toggle="tab">
                         Forgot Password
-                      </a>
+                      </Link>
                     </div>
                     <div className="text-center mt-40">
                       <p className="mt-0">Dont have any account?</p>

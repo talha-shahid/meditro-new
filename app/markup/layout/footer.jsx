@@ -23,6 +23,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 import { FaFax } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { MdLocationPin } from "react-icons/md";
+import Link from "next/link";
 
 class aboutSection extends Component {
   render() {
@@ -38,9 +39,9 @@ class aboutSection extends Component {
                 <div className="col-xl-3 col-lg-3 col-md-6">
                   <div className="widget widget_info">
                     <div className="footer-logo">
-                      <a href="/">
+                      <Link href="/">
                         <img src={Logo.src} alt="" />
-                      </a>
+                      </Link>
                     </div>
                     <div className="ft-contact">
                       <p>
@@ -66,34 +67,34 @@ class aboutSection extends Component {
                     <h3 className="footer-title">Our Service</h3>
                     <ul>
                       <li>
-                        <a href="/service-detail">
+                        <Link href="/service-detail">
                           <span>Credentialing & Enrollment</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/service-detail">
+                        <Link href="/service-detail">
                           <span>Medical Billing Services</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/service-detail">
+                        <Link href="/service-detail">
                           <span>Medical Coding Services</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/service-detail">
+                        <Link href="/service-detail">
                           <span>Front Office Services</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/service-detail">
+                        <Link href="/service-detail">
                           <span>Patient Billing</span>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/service-detail">
+                        <Link href="/service-detail">
                           <span>Practice Audit</span>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -136,7 +137,7 @@ class aboutSection extends Component {
                     </ul> */}
                     <ul>
                       <li style={{ marginTop: "-0.5rem" }}>
-                        <a
+                        <Link
                           style={{
                             display: "flex",
                             alignItems: "center",
@@ -155,10 +156,10 @@ class aboutSection extends Component {
                           >
                             204 F Street Davis CA <br /> 95616
                           </p>
-                        </a>
+                        </Link>
                       </li>
                       <li style={{ marginTop: "-1.5rem" }}>
-                        <a
+                        <Link
                           style={{
                             display: "flex",
                             alignItems: "center",
@@ -176,10 +177,10 @@ class aboutSection extends Component {
                           >
                             510-209-3111
                           </p>
-                        </a>
+                        </Link>
                       </li>
                       <li style={{ marginTop: "-1.5rem" }}>
-                        <a
+                        <Link
                           style={{
                             display: "flex",
                             alignItems: "center",
@@ -197,10 +198,10 @@ class aboutSection extends Component {
                           >
                             +1 510 209 3111
                           </p>
-                        </a>
+                        </Link>
                       </li>
                       <li style={{ marginTop: "-1.5rem" }}>
-                        <a
+                        <Link
                           style={{
                             display: "flex",
                             alignItems: "center",
@@ -218,7 +219,7 @@ class aboutSection extends Component {
                           >
                             info@premiermedix
                           </p>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -249,40 +250,40 @@ class aboutSection extends Component {
                     <div className="footer-social-link">
                       <ul>
                         <li>
-                          <a
+                          <Link
                             target="_blank"
                             rel="noreferrer"
                             href="https://www.facebook.com/"
                           >
                             <img src={facebook.src} alt="" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             target="_blank"
                             rel="noreferrer"
                             href="https://twitter.com/"
                           >
                             <img src={twitter.src} alt="" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             target="_blank"
                             rel="noreferrer"
                             href="https://www.instagram.com/"
                           >
                             <img src={instagram.src} alt="" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             target="_blank"
                             rel="noreferrer"
                             href="https://www.linkedin.com/"
                           >
                             <img src={linkedin.src} alt="" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -298,14 +299,14 @@ class aboutSection extends Component {
                   {/* <p className="copyright-text">204 F Street Davis CA 95616</p> */}
                   <p className="copyright-text">
                     Copyright © 2023 Design & Developed by{" "}
-                    <a
+                    <Link
                       href="#"
                       rel="noreferrer"
                       target="_blank"
                       className="text-secondary"
                     >
                       PremierMedix
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>

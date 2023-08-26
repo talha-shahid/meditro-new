@@ -8,6 +8,7 @@ import bg1 from "../../images/background/line-bg1.png";
 import ptImg1 from "../../images/shap/circle-orange.png";
 import ptImg2 from "../../images/shap/plus-orange.png";
 import ptImg3 from "../../images/shap/circle-dots.png";
+import Link from "next/link";
 
 class aboutSection extends Component {
   render() {
@@ -42,10 +43,10 @@ class aboutSection extends Component {
                       and efficiency in your medical practice.
                     </p>
                   </div>
-                  <a href="/booking" className="btn btn-primary light">
+                  <Link href="/booking" className="btn btn-primary light">
                     View More{" "}
                     <i className="btn-icon-bx fas fa-chevron-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 mb-30">
@@ -59,10 +60,10 @@ class aboutSection extends Component {
                       with customizable packages to suit your requirements.
                     </p>
                   </div>
-                  <a href="/services" className="btn btn-primary light">
+                  <Link href="/services" className="btn btn-primary light">
                     View More{" "}
                     <i className="btn-icon-bx fas fa-chevron-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 mb-30">
@@ -77,10 +78,10 @@ class aboutSection extends Component {
                       seamless operations and peace of mind.
                     </p>
                   </div>
-                  <a href="/contact-us" className="btn btn-primary light">
+                  <Link href="/contact-us" className="btn btn-primary light">
                     View More{" "}
                     <i className="btn-icon-bx fas fa-chevron-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

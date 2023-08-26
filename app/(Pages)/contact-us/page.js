@@ -20,6 +20,7 @@ import icon3 from "@/app/images/icon/icon3.png";
 import animateWave from "@/app/images/shap/wave-blue.png";
 import animate2 from "@/app/images/shap/circle-dots.png";
 import animateRotate from "@/app/images/shap/plus-blue.png";
+import Link from "next/link";
 
 class ContactUs extends Component {
   render() {
@@ -37,7 +38,7 @@ class ContactUs extends Component {
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
-                        <a href="/">
+                        <Link href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="22"
@@ -54,7 +55,7 @@ class ContactUs extends Component {
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
                           </svg>{" "}
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li
                         className="breadcrumb-item active"

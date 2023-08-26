@@ -18,6 +18,7 @@ import testPic3 from "../../images/testimonials/pic3.jpg";
 import blogGridPic1 from "../../images/blog/grid/p1.jpg";
 import blogGridPic2 from "../../images/blog/grid/p2.jpg";
 import blogGridPic3 from "../../images/blog/grid/p3.png";
+import Link from "next/link";
 // import blogGridPic4 from "../../images/blog/grid/pic4.jpg";
 // import blogGridPic5 from "../../images/blog/grid/pic5.jpg";
 
@@ -90,12 +91,12 @@ const NewsItem = ({ item }) => {
           <h5 className="post-title">
             <div href={`/blogs/${item.slug}`}>{item.title}</div>
           </h5>
-          <a
+          <Link
             href={`/blogs/${item.slug}`}
             className="btn btn-outline-primary btn-sm"
           >
             Read More <i className="btn-icon-bx fas fa-chevron-right"></i>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

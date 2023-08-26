@@ -17,11 +17,12 @@ import bnrImg1 from "@/app/images/banner/img1.jpg";
 import waveBlue from "@/app/images/shap/wave-blue.png";
 import circleDots from "@/app/images/shap/circle-dots.png";
 import plusBlue from "@/app/images/shap/plus-blue.png";
-import servicesPic1 from "@/app/images/services/pic1.jpg";
-import pdf from "@/app/images/icon/pdf.png";
-import doc from "@/app/images/icon/doc.png";
+// import servicesPic1 from "@/app/images/services/pic1.jpg";
+// import pdf from "@/app/images/icon/pdf.png";
+// import doc from "@/app/images/icon/doc.png";
 
 import services from "../services.json";
+import Link from "next/link";
 
 function compare(params) {
   function findServiceBySlug(slug) {
@@ -49,7 +50,7 @@ function ServiceDetail({ params }) {
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
                   <ul className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <a href="/">
+                      <Link href="/">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="22"
@@ -66,10 +67,10 @@ function ServiceDetail({ params }) {
                           <polyline points="9 22 9 12 15 12 15 22"></polyline>
                         </svg>{" "}
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      <a href="/services">Service</a>
+                      <Link href="/services">Service</Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Service Details
@@ -258,40 +259,40 @@ function ServiceDetail({ params }) {
                   <div className="widget">
                     <ul className="service-menu">
                       <li className="active">
-                        <a href="/services/credentialing-enrollment">
+                        <Link href="/services/credentialing-enrollment">
                           <span>Credentialing & Enrollment</span>
                           <i className="fa fa-angle-right"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/services/medical-billing-services">
+                        <Link href="/services/medical-billing-services">
                           <span>Medical Billing Services</span>
                           <i className="fa fa-angle-right"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/services/medical-coding-services">
+                        <Link href="/services/medical-coding-services">
                           <span>Medical Coding Services</span>
                           <i className="fa fa-angle-right"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/services/front-office-services">
+                        <Link href="/services/front-office-services">
                           <span>Front Office Services</span>
                           <i className="fa fa-angle-right"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/services/patient-billing">
+                        <Link href="/services/patient-billing">
                           <span>Patient Billing</span>
                           <i className="fa fa-angle-right"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/services/practice-audit">
+                        <Link href="/services/practice-audit">
                           <span>Practice Audit</span>
                           <i className="fa fa-angle-right"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

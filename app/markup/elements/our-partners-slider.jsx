@@ -20,6 +20,7 @@ import blogGridPic2 from "@/app/images/blog/grid/product2.png";
 // import blogGridPic1 from "@/app/images/blog/grid/pic1.jpg";
 // import blogGridPic2 from "@/app/images/blog/grid/pic2.jpg";
 import blogGridPic3 from "@/app/images/blog/grid/pic3.jpg";
+import Link from "next/link";
 // import blogGridPic4 from "@/app/images/blog/grid/pic4.jpg";
 // import blogGridPic5 from "@/app/images/blog/grid/pic5.jpg";
 
@@ -70,9 +71,9 @@ const NewsItem = ({ item }) => {
     <div className="slider-item">
       <div className="blog-card">
         <div className="post-media">
-          <a href={item.link}>
+          <Link href={item.link}>
             <img src={item.thumb.src} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="post-info">
           {/* <ul className="post-meta">
@@ -88,7 +89,7 @@ const NewsItem = ({ item }) => {
             </li>
           </ul> */}
           <h5 className="post-title" style={{ textAlign: "center" }}>
-            <a href={item.link}>{item.title}</a>
+            <Link href={item.link}>{item.title}</Link>
           </h5>
 
           {/* <Link to="/blog-details" className="btn btn-outline-primary btn-sm">

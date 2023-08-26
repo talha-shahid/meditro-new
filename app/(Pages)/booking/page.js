@@ -18,6 +18,7 @@ import circleDots from "@/app/images/shap/circle-dots.png";
 import plusBlue from "@/app/images/shap/plus-blue.png";
 
 import AppointmentForm from "@/app/markup/elements/appointment-form";
+import Link from "next/link";
 
 class Booking extends Component {
   render() {
@@ -35,7 +36,7 @@ class Booking extends Component {
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
-                        <a href="/">
+                        <Link href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="22"
@@ -52,7 +53,7 @@ class Booking extends Component {
                             <polyline points="9 22 9 12 15 12 15 22"></polyline>
                           </svg>{" "}
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li
                         className="breadcrumb-item active"
