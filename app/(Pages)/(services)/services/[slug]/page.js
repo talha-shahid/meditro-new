@@ -93,7 +93,7 @@ function ServiceDetail({ params }) {
                 </div> */}
                 <div className="clearfix">
                   <div className="head-text mb-30">
-                    <h2 className="title mb-15">{service.title}</h2>
+                    <h1 className="title mb-15">{service.title}</h1>
                     <p className="mb-0">{service.content}</p>
                   </div>
                   {/* <div className="row align-items-center">
