@@ -18,6 +18,7 @@
     "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0",
     "react-stickynode": "^4.1.0",
+    "react-top-loading-bar": "^2.3.1",
     "sass": "^1.66.1",
     "slick-carousel": "^1.8.1"
   }

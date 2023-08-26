@@ -158,15 +158,15 @@ class aboutSection extends Component {
                           </p>
                         </Link>
                       </li>
-                      <li style={{ marginTop: "-1.5rem" }}>
-                        <Link
+                      <li style={{ marginTop: "-1rem" }}>
+                        <span
                           style={{
                             display: "flex",
                             alignItems: "center",
                           }}
                           target="_blank"
                           rel="noreferrer"
-                          href="https://www.linkedin.com/"
+                          href="#"
                         >
                           <BsTelephoneFill />
                           <p
@@ -177,17 +177,17 @@ class aboutSection extends Component {
                           >
                             510-209-3111
                           </p>
-                        </Link>
+                        </span>
                       </li>
-                      <li style={{ marginTop: "-1.5rem" }}>
-                        <Link
+                      <li style={{ marginTop: "-1rem" }}>
+                        <span
                           style={{
                             display: "flex",
                             alignItems: "center",
                           }}
                           target="_blank"
                           rel="noreferrer"
-                          href="https://www.linkedin.com/"
+                          href="#"
                         >
                           <FaFax />
                           <p
@@ -198,17 +198,17 @@ class aboutSection extends Component {
                           >
                             +1 510 209 3111
                           </p>
-                        </Link>
+                        </span>
                       </li>
-                      <li style={{ marginTop: "-1.5rem" }}>
-                        <Link
+                      <li style={{ marginTop: "-1rem" }}>
+                        <span
                           style={{
                             display: "flex",
                             alignItems: "center",
                           }}
                           target="_blank"
                           rel="noreferrer"
-                          href="https://www.linkedin.com/"
+                          href="#"
                         >
                           <MdEmail />
                           <p
@@ -219,7 +219,7 @@ class aboutSection extends Component {
                           >
                             info@premiermedix
                           </p>
-                        </Link>
+                        </span>
                       </li>
                     </ul>
                   </div>

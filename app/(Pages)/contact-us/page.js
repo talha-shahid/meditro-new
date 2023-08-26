@@ -160,16 +160,16 @@ class ContactUs extends Component {
                           <h6 className="title">
                             <i className="ti-map-alt"></i>Location
                           </h6>
-                          <p>2005 Stokes Isle Apt. 896, Venaville 10010, USA</p>
+                          <p>204 F Street Davis CA 95616</p>
                         </div>
                         <div className="icon-box">
                           <h6 className="title">
                             <i className="ti-id-badge"></i>Email &amp; Phone
                           </h6>
                           <div href="#" className="text-white">
-                            info@yourdomain.com
+                            info@premiermedix
                           </div>
-                          <p>(+68) 120034509</p>
+                          <p>+1 510 209 3111</p>
                         </div>
                         <div className="icon-box">
                           <h6 className="title">
@@ -223,8 +223,7 @@ class ContactUs extends Component {
                     </div>
                     <div className="icon-content">
                       <h5 className="ttr-title">Contact Number</h5>
-                      <p>+001 123 456 790</p>
-                      <p>+002 3424 44 00</p>
+                      <p>+1 510 209 3111</p>
                     </div>
                   </div>
                 </div>
@@ -235,8 +234,7 @@ class ContactUs extends Component {
                     </div>
                     <div className="icon-content">
                       <h5 className="ttr-title">Email Address</h5>
-                      <p>info@yourdomain.com</p>
-                      <p>example@support.com</p>
+                      <p> info@premiermedix</p>
                     </div>
                   </div>
                 </div>
@@ -247,7 +245,7 @@ class ContactUs extends Component {
                     </div>
                     <div className="icon-content">
                       <h5 className="ttr-title">Address</h5>
-                      <p>2005 Stokes Isle Apt. 896, Venaville 10010, USA</p>
+                      <p>204 F Street Davis CA 95616</p>
                     </div>
                   </div>
                 </div>

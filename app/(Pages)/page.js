@@ -25,26 +25,28 @@ import BackToTop from "@/app/markup/elements/back-top";
 
 export default function Home() {
   return (
-    <div className="page-wraper">
-      <MainBannerSection />
+    <>
+      <div className="page-wraper">
+        <MainBannerSection />
 
-      <AboutSection />
+        <AboutSection />
 
-      <ServicesSliderSection />
+        <ServicesSliderSection />
 
-      <AppointmentSection />
+        <AppointmentSection />
 
-      <WorkSection />
+        <WorkSection />
 
-      <TestimonialSection />
+        <TestimonialSection />
 
-      <OurPartnersSection />
+        <OurPartnersSection />
 
-      <LatestNewsSection />
+        <LatestNewsSection />
 
-      <PageScrollTop />
+        <PageScrollTop />
 
-      <BackToTop />
-    </div>
+        <BackToTop />
+      </div>
+    </>
   );
 }

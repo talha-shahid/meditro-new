@@ -154,7 +154,7 @@ function ServiceDetail({ params }) {
                     </div>
                   </div>
                 </div>
-                <div className="clearfix">
+                {/* <div className="clearfix">
                   <div className="head-text mb-30">
                     <h4 className="title mb-10">Popular Questions</h4>
                     <p className="mb-0">
@@ -252,7 +252,7 @@ function ServiceDetail({ params }) {
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>
-                </div>
+                </div> */}
               </div>
               <div className="col-lg-4">
                 <aside className="sticky-top pb-1">
