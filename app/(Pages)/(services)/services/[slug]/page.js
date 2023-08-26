@@ -88,9 +88,9 @@ function ServiceDetail({ params }) {
           <div className="container">
             <div className="row">
               <div className="col-lg-8 mb-30">
-                <div className="ttr-media mb-30">
+                {/* <div className="ttr-media mb-30">
                   <img src={servicesPic1.src} className="rounded" alt="" />
-                </div>
+                </div> */}
                 <div className="clearfix">
                   <div className="head-text mb-30">
                     <h2 className="title mb-15">{service.title}</h2>
