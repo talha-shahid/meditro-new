@@ -45,7 +45,7 @@ function ServiceDetail({ params }) {
           >
             <div className="container">
               <div className="page-banner-entry text-center">
-                <h1>Service {params.slug}</h1>
+                <h1>Service Details</h1>
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
                   <ul className="breadcrumb">
                     <li className="breadcrumb-item">
