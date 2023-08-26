@@ -431,9 +431,13 @@ function Specialities() {
                 >
                   <div className="feature-box-xl mb-20">
                     <span className="icon-cell">
-                      <AiOutlineAudit
-                        size={70}
+                      {/* <AiOutlineAudit
+                        
                         style={{ color: "rgb(2, 2, 136)" }}
+                      /> */}
+                      <img
+                        src="https://www.pyramidsglobal.com/wp-content/uploads/2022/10/psychiatry-icon.png.webp"
+                        alt=""
                       />
                     </span>
                   </div>
@@ -500,9 +504,9 @@ function Specialities() {
                 >
                   <div className="feature-box-xl mb-20">
                     <span className="icon-cell">
-                      <AiOutlineAudit
-                        size={70}
-                        style={{ color: "rgb(2, 2, 136)" }}
+                      <img
+                        src="https://www.pyramidsglobal.com/wp-content/uploads/2022/10/pediatric-icon.png.webp"
+                        alt=""
                       />
                     </span>
                   </div>
