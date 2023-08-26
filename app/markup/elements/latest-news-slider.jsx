@@ -28,6 +28,7 @@ const content = [
     authorPic: testPic1,
     author: "John deo",
     title: "Navigating ICD-10 2024 Conventions: A Comprehensive Guide",
+    slug: "navigating-icd-10-2024-conventions-a-comprehensive-guide",
     date: "21 July 2021",
   },
   {
@@ -36,6 +37,7 @@ const content = [
     author: "Peter Packer",
     title:
       "12 Essential Steps for Maximizing Reimbursements in Your Medical Practice",
+    slug: "12-essential-steps-for-maximizing-reimbursements-in-your-medical-practice",
     date: "20 July 2021",
   },
   {
@@ -44,6 +46,7 @@ const content = [
     author: "Sonar Moyna",
     title:
       "Safeguarding Patient Trust: The Vital Importance of HIPAA Compliance in Data Protection",
+    slug: "safeguarding-patient-trust-the-vital-importance-of-hipaa-compliance-in-data-protection",
     date: "19 July 2021",
   },
   // {
@@ -67,14 +70,14 @@ const NewsItem = ({ item }) => {
     <div className="slider-item">
       <div className="blog-card">
         <div className="post-media">
-          <div style={{ height: "15rem" }} href={`/blog-details`}>
+          <div style={{ height: "15rem" }} href={`/blogs/${item.slug}`}>
             <img src={item.thumb.src} alt="" />
           </div>
         </div>
         <div className="post-info">
           <ul className="post-meta">
             <li className="author">
-              <div href="/blog-details">
+              <div href={`/blogs/${item.slug}`}>
                 <img src={item.authorPic.src} alt="" />
                 {item.author}
               </div>
@@ -85,9 +88,12 @@ const NewsItem = ({ item }) => {
             </li>
           </ul>
           <h5 className="post-title">
-            <div href="/blog-details">{item.title}</div>
+            <div href={`/blogs/${item.slug}`}>{item.title}</div>
           </h5>
-          <a href={`/blog-details`} className="btn btn-outline-primary btn-sm">
+          <a
+            href={`/blogs/${item.slug}`}
+            className="btn btn-outline-primary btn-sm"
+          >
             Read More <i className="btn-icon-bx fas fa-chevron-right"></i>
           </a>
         </div>

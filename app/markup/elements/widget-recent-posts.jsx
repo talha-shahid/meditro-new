@@ -2,9 +2,9 @@ import React, { Component } from "react";
 // import { Link } from 'react-router-dom';
 
 // Import Images
-import recentBlogImg1 from "../../images/blog/recent-blog/pic1.jpg";
-import recentBlogImg2 from "../../images/blog/recent-blog/pic2.jpg";
-import recentBlogImg3 from "../../images/blog/recent-blog/pic3.jpg";
+import recentBlogImg1 from "@/app/images/blog/grid/p1.jpg";
+import recentBlogImg2 from "@/app/images/blog/grid/p2.jpg";
+import recentBlogImg3 from "@/app/images/blog/grid/pic3.jpg";
 
 class WidgetRecentPosts extends Component {
   render() {
@@ -14,7 +14,7 @@ class WidgetRecentPosts extends Component {
           <h4 className="widget-title">Recent Posts</h4>
           <div className="widget-post-bx">
             <div className="widget-post clearfix">
-              <div className="ttr-post-media">
+              <div style={{ height: "5.5rem" }} className="ttr-post-media">
                 {" "}
                 <img
                   src={recentBlogImg1.src}
@@ -26,8 +26,8 @@ class WidgetRecentPosts extends Component {
               <div className="ttr-post-info">
                 <div className="ttr-post-header">
                   <h6 className="post-title">
-                    <div href="/blog-details">
-                      Precious Tips To Help You Get Better.
+                    <div>
+                      Navigating ICD-10 2024 Conventions: A Comprehensive Guide
                     </div>
                   </h6>
                 </div>
@@ -52,38 +52,14 @@ class WidgetRecentPosts extends Component {
                 <div className="ttr-post-header">
                   <h6 className="post-title">
                     <div href="/blog-details">
-                      Ten Doubts You Should Clarify About.
+                      12 Essential Steps for Maximizing Reimbursements in Your
+                      Medical Practice
                     </div>
                   </h6>
                 </div>
                 <ul className="post-meta">
                   <li className="date">
                     <i className="far fa-calendar-alt"></i> 20 July 2021
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="widget-post clearfix">
-              <div className="ttr-post-media">
-                {" "}
-                <img
-                  src={recentBlogImg3.src}
-                  width="200"
-                  height="160"
-                  alt=""
-                />{" "}
-              </div>
-              <div className="ttr-post-info">
-                <div className="ttr-post-header">
-                  <h6 className="post-title">
-                    <div href="/blog-details">
-                      The 10 Steps Needed For Putting.
-                    </div>
-                  </h6>
-                </div>
-                <ul className="post-meta">
-                  <li className="date">
-                    <i className="far fa-calendar-alt"></i> 19 July 2021
                   </li>
                 </ul>
               </div>

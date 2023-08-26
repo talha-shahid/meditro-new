@@ -347,7 +347,7 @@ class ServicesSliderSection extends Component {
                       payer credentialing, expanding provider networks and
                       ensuring financial stability.
                     </p>
-                    <a href="/service-detail" className="btn btn-primary light">
+                    <a href="/services" className="btn btn-primary light">
                       View More
                     </a>
                   </div>
@@ -386,7 +386,7 @@ class ServicesSliderSection extends Component {
                       services, including scheduling, eligibility checks,
                       claims, payment management, and financial reporting.
                     </p>
-                    <a href="/service-detail" className="btn btn-primary light">
+                    <a href="/services" className="btn btn-primary light">
                       View More
                     </a>
                   </div>
@@ -425,7 +425,7 @@ class ServicesSliderSection extends Component {
                       meeting industry standards and CMS guidelines with
                       exceptional accuracy and reliability.
                     </p>
-                    <a href="/service-detail" className="btn btn-primary light">
+                    <a href="/services" className="btn btn-primary light">
                       View More
                     </a>
                   </div>
@@ -465,7 +465,7 @@ class ServicesSliderSection extends Component {
                       enhancing the overall patient experience. (Included with
                       billing contract for convenience)
                     </p>
-                    <a href="/service-detail" className="btn btn-primary light">
+                    <a href="/services" className="btn btn-primary light">
                       View More
                     </a>
                   </div>
@@ -505,7 +505,7 @@ class ServicesSliderSection extends Component {
                       maximize payments, and focus on patient care while we
                       expertly manage the administrative workload.
                     </p>
-                    <a href="/service-detail" className="btn btn-primary light">
+                    <a href="/services" className="btn btn-primary light">
                       View More
                     </a>
                   </div>
@@ -543,7 +543,7 @@ class ServicesSliderSection extends Component {
                       along with revenue-boosting suggestions to enhance your
                       revenue.
                     </p>
-                    <a href="/service-detail" className="btn btn-primary light">
+                    <a href="/services" className="btn btn-primary light">
                       View More
                     </a>
                   </div>

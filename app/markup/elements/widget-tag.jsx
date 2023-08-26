@@ -8,15 +8,15 @@ class widgetTag extends Component {
         <div className="widget widget_tag_cloud">
           <h4 className="widget-title">Tags</h4>
           <div className="tagcloud">
-            <div href="#">Improvement</div>
-            <div href="#">Health</div>
-            <div href="#">Life</div>
-            <div href="#">Covid</div>
-            <div href="#">Healthy</div>
-            <div href="#">Growth</div>
-            <div href="#">Education</div>
-            <div href="#">Manage</div>
-            <div href="#">General</div>
+            <div href="#">Healthcare Solutions</div>
+            <div href="#">Medical Billing</div>
+            <div href="#">Credentialing Services</div>
+            <div href="#">Revenue Cycle Management</div>
+            <div href="#">Healthcare Technology</div>
+            <div href="#">Healthcare Providers</div>
+            <div href="#">Healthcare Transformation</div>
+            <div href="#">Healthcare Industry</div>
+            <div href="#">Healthcare Optimization</div>
           </div>
         </div>
       </>

@@ -41,66 +41,71 @@ const blogPost = [
   {
     thumb: blogGridPic1,
     authorPic: testPic1,
-    title: "Dental Care for Women is very important",
     author: "John deo",
+    title: "Navigating ICD-10 2024 Conventions: A Comprehensive Guide",
+    slug: "navigating-icd-10-2024-conventions-a-comprehensive-guide",
     date: "21 July 2021",
   },
   {
     thumb: blogGridPic2,
     authorPic: testPic2,
-    title: "In this hospital there are special surgeon",
     author: "Peter Packer",
+    title:
+      "12 Essential Steps for Maximizing Reimbursements in Your Medical Practice",
+    slug: "12-essential-steps-for-maximizing-reimbursements-in-your-medical-practice",
     date: "20 July 2021",
   },
   {
     thumb: blogGridPic3,
     authorPic: testPic3,
-    title: "Why Is Skin Surgeon Considered Underrated",
     author: "Sonar Moyna",
+    title:
+      "Safeguarding Patient Trust: The Vital Importance of HIPAA Compliance in Data Protection",
+    slug: "safeguarding-patient-trust-the-vital-importance-of-hipaa-compliance-in-data-protection",
     date: "19 July 2021",
   },
-  {
-    thumb: blogGridPic4,
-    authorPic: testPic4,
-    title: "Understand Health Before You Regret",
-    author: "Kalina",
-    date: "18 July 2021",
-  },
-  {
-    thumb: blogGridPic5,
-    authorPic: testPic5,
-    title: "Health Will Be A Thing Of The Past And Here",
-    author: "Michel",
-    date: "17 July 2021",
-  },
-  {
-    thumb: blogGridPic6,
-    authorPic: testPic6,
-    title: "Can you get a diflucan prescription online?",
-    author: "Peter Packer",
-    date: "16 July 2021",
-  },
-  {
-    thumb: blogGridPic7,
-    authorPic: testPic1,
-    title: "Ten Gigantic Influences Of Health",
-    author: "Sonar Moyna",
-    date: "15 July 2021",
-  },
-  {
-    thumb: blogGridPic8,
-    authorPic: testPic2,
-    title: "Why Is Skin Surgeon Considered Underrated",
-    author: "Kalina",
-    date: "14 July 2021",
-  },
-  {
-    thumb: blogGridPic9,
-    authorPic: testPic3,
-    title: "Everyone need to go Dentist regularly",
-    author: "Michel",
-    date: "13 July 2021",
-  },
+  // {
+  //   thumb: blogGridPic4,
+  //   authorPic: testPic4,
+  //   title: "Understand Health Before You Regret",
+  //   author: "Kalina",
+  //   date: "18 July 2021",
+  // },
+  // {
+  //   thumb: blogGridPic5,
+  //   authorPic: testPic5,
+  //   title: "Health Will Be A Thing Of The Past And Here",
+  //   author: "Michel",
+  //   date: "17 July 2021",
+  // },
+  // {
+  //   thumb: blogGridPic6,
+  //   authorPic: testPic6,
+  //   title: "Can you get a diflucan prescription online?",
+  //   author: "Peter Packer",
+  //   date: "16 July 2021",
+  // },
+  // {
+  //   thumb: blogGridPic7,
+  //   authorPic: testPic1,
+  //   title: "Ten Gigantic Influences Of Health",
+  //   author: "Sonar Moyna",
+  //   date: "15 July 2021",
+  // },
+  // {
+  //   thumb: blogGridPic8,
+  //   authorPic: testPic2,
+  //   title: "Why Is Skin Surgeon Considered Underrated",
+  //   author: "Kalina",
+  //   date: "14 July 2021",
+  // },
+  // {
+  //   thumb: blogGridPic9,
+  //   authorPic: testPic3,
+  //   title: "Everyone need to go Dentist regularly",
+  //   author: "Michel",
+  //   date: "13 July 2021",
+  // },
 ];
 
 class BlogGrid extends Component {
@@ -115,7 +120,7 @@ class BlogGrid extends Component {
             >
               <div className="container">
                 <div className="page-banner-entry text-center">
-                  <h1>Blog Grid 3</h1>
+                  <h1>Blogs</h1>
                   <nav aria-label="breadcrumb" className="breadcrumb-row">
                     <ul className="breadcrumb">
                       <li className="breadcrumb-item">
@@ -142,7 +147,7 @@ class BlogGrid extends Component {
                         className="breadcrumb-item active"
                         aria-current="page"
                       >
-                        Blog Grid 3
+                        Blog
                       </li>
                     </ul>
                   </nav>
@@ -165,33 +170,38 @@ class BlogGrid extends Component {
                   <div key={index} className="col-xl-4 col-md-6">
                     <div className="blog-card mb-30">
                       <div className="post-media">
-                        <div href="/blog-details">
+                        <div
+                          style={{ height: "15rem" }}
+                          href={`/blogs/${blogPost.slug}`}
+                        >
                           <img src={blogPost.thumb.src} alt="" />
                         </div>
                       </div>
                       <div className="post-info">
                         <ul className="post-meta">
                           <li className="author">
-                            <div href="/blog-details">
-                              <img src={blogPost.authorPic.src} alt="" />{" "}
+                            <div href={`/blogs/${blogPost.slug}`}>
+                              <img src={blogPost.authorPic.src} alt="" />
                               {blogPost.author}
                             </div>
                           </li>
                           <li className="date">
-                            <i className="far fa-calendar-alt"></i>{" "}
+                            <i className="far fa-calendar-alt"></i>
                             {blogPost.date}
                           </li>
                         </ul>
-                        <h4 className="post-title">
-                          <div href="/blog-details">{blogPost.title}</div>
-                        </h4>
-                        <div
-                          href="/blog-details"
+                        <h5 className="post-title">
+                          <div href={`/blogs/${blogPost.slug}`}>
+                            {blogPost.title}
+                          </div>
+                        </h5>
+                        <a
+                          href={`/blogs/${blogPost.slug}`}
                           className="btn btn-outline-primary btn-sm"
                         >
                           Read More{" "}
                           <i className="btn-icon-bx fas fa-chevron-right"></i>
-                        </div>
+                        </a>
                       </div>
                     </div>
                   </div>

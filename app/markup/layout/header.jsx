@@ -109,32 +109,37 @@ const Header = () => {
         {
           id: "serviceDetail",
           displayName: "Credentialing & Enrollment",
-          linkName: "service-detail",
+          linkName: "service/credentialing-enrollment",
         },
         {
           id: "serviceDetail",
           displayName: "Medical Billing Services",
-          linkName: "service-detail",
+          linkName: "service/medical-billing-services",
         },
         {
           id: "serviceDetail",
           displayName: "Medical Coding Services",
-          linkName: "service-detail",
+          linkName: "service/medical-coding-services",
         },
         {
           id: "serviceDetail",
           displayName: "Front Office Services",
-          linkName: "service-detail",
+          linkName: "service/front-office-services",
         },
         {
           id: "serviceDetail",
           displayName: "Patient Billing",
-          linkName: "service-detail",
+          linkName: "service/patient-billing",
         },
         {
           id: "serviceDetail",
           displayName: "Practice Audit",
-          linkName: "service-detail",
+          linkName: `service/practice-audit`,
+        },
+        {
+          id: "serviceDetail",
+          displayName: "Others",
+          linkName: "services",
         },
       ],
     },
@@ -147,39 +152,44 @@ const Header = () => {
         {
           id: "aboutus",
           displayName: "Anesthesiology",
-          linkName: "service-detail",
+          linkName: "specialities/anesthesiology",
         },
         {
           id: "team",
           displayName: "Cardiology",
-          linkName: "service-detail",
+          linkName: "specialities/cardiology",
         },
         {
           id: "faq",
           displayName: "Chiropractics",
-          linkName: "service-detail",
+          linkName: "specialities/chiropractics",
         },
         {
           id: "booking",
           displayName: "Dermatology",
-          linkName: "service-detail",
+          linkName: "specialities/dermatology",
         },
         {
           id: "error",
           displayName: "DME (Durable Medical Equipment)",
-          linkName: "service-detail",
+          linkName: "specialities/dme",
         },
         {
           id: "formLogin",
           displayName: "Endocrinology",
-          linkName: "service-detail",
+          linkName: "specialities/endocrinology",
+        },
+        {
+          id: "formLogin",
+          displayName: "Others",
+          linkName: "specialities",
         },
       ],
     },
     {
       id: "blog",
       name: "Blog",
-      linkName: "blog-grid",
+      linkName: "blogs",
 
       // subItems: [
       //   {
@@ -239,7 +249,8 @@ const Header = () => {
                 </li>
                 <li className="num-bx">
                   <a href="tel:(+01)999888777">
-                    <i className="fas fa-phone-alt"></i> +14244332048
+                    <i className="fas fa-phone-alt"></i>
+                    +1 510 209 3111
                   </a>
                 </li>
                 <li className="btn-area">

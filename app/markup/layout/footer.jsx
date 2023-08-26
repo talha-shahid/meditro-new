@@ -42,13 +42,11 @@ class aboutSection extends Component {
                         <img src={Logo.src} alt="" />
                       </a>
                     </div>
-                    <div style={{ width: "14rem" }} className="ft-contact">
+                    <div className="ft-contact">
                       <p>
-                        PremierMedix stands as a comprehensive healthcare
-                        solutions provider, specializing in the areas of
-                        credentialing, medical billing, coding, and revenue
-                        cycle management. Our mission is to transform your
-                        aspirations into reality.
+                        PremierMedix offers comprehensive healthcare solutions
+                        in credentialing, billing, coding, and revenue cycle
+                        management.
                       </p>
                       {/* <div className="contact-bx">
                         <div className="icon">
@@ -151,7 +149,7 @@ class aboutSection extends Component {
                           <MdLocationPin style={{ fontSize: "1.25rem" }} />
                           <p
                             style={{
-                              paddingLeft: "2rem",
+                              paddingLeft: "1rem",
                               paddingTop: "1rem",
                             }}
                           >
@@ -172,11 +170,11 @@ class aboutSection extends Component {
                           <BsTelephoneFill />
                           <p
                             style={{
-                              paddingLeft: "2rem",
+                              paddingLeft: "1rem",
                               paddingTop: "1rem",
                             }}
                           >
-                            +14244332048
+                            510-209-3111
                           </p>
                         </a>
                       </li>
@@ -193,11 +191,11 @@ class aboutSection extends Component {
                           <FaFax />
                           <p
                             style={{
-                              paddingLeft: "2rem",
+                              paddingLeft: "1rem",
                               paddingTop: "1rem",
                             }}
                           >
-                            +14244332048
+                            +1 510 209 3111
                           </p>
                         </a>
                       </li>
@@ -214,11 +212,11 @@ class aboutSection extends Component {
                           <MdEmail />
                           <p
                             style={{
-                              paddingLeft: "2rem",
+                              paddingLeft: "1rem",
                               paddingTop: "1rem",
                             }}
                           >
-                            abc@gmail.com
+                            info@premiermedix
                           </p>
                         </a>
                       </li>
@@ -301,7 +299,7 @@ class aboutSection extends Component {
                   <p className="copyright-text">
                     Copyright © 2023 Design & Developed by{" "}
                     <a
-                      href="https://www.premiermedix.com/"
+                      href="#"
                       rel="noreferrer"
                       target="_blank"
                       className="text-secondary"

@@ -1,11 +1,13 @@
+"use client";
+
 import React, { Component } from "react";
 // import { Link } from 'react-router-dom';
 
 // Import Images
-import bnrImg1 from "../../images/banner/img1.jpg";
-import waveBlue from "../../images/shap/wave-blue.png";
-import circleDots from "../../images/shap/circle-dots.png";
-import plusBlue from "../../images/shap/plus-blue.png";
+import bnrImg1 from "@/app/images/banner/img1.jpg";
+import waveBlue from "@/app/images/shap/wave-blue.png";
+import circleDots from "@/app/images/shap/circle-dots.png";
+import plusBlue from "@/app/images/shap/plus-blue.png";
 
 class Error extends Component {
   render() {
