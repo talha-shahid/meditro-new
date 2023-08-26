@@ -77,7 +77,7 @@ function Specialities() {
             <div className="row">
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -91,22 +91,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Anesthesiology</h3>
                     <p>
-                      Promedix ensures affordable government and commercial
-                      payer credentialing, expanding provider networks and
-                      ensuring financial stability.
+                      Anesthesiology: A Century of Excellence, Safeguarding
+                      Patient Comfort, and Enhancing Well-being through Expert
+                      Medical Care and Compassion.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature2"
                 >
                   <div className="feature-box-xl mb-20">
@@ -120,22 +114,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Cardiology</h3>
                     <p>
-                      Promedix offers complete range of medical billing
-                      services, including scheduling, eligibility checks,
-                      claims, payment management, and financial reporting.
+                      Cardiology: Advancing heart health, innovation, and
+                      compassionate care for cardiovascular patients,
+                      contributing to a healthier future.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature3"
                 >
                   <div className="feature-box-xl mb-20">
@@ -149,22 +137,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Chiropractics</h3>
                     <p>
-                      Count on Promedix for precise medical coding, consistently
-                      meeting industry standards and CMS guidelines with
-                      exceptional accuracy and reliability.
+                      Chiropractics: Promoting wellness, spinal health, and
+                      natural healing through skilled adjustments and
+                      personalized care for optimal vitality.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature2"
                 >
                   <div className="feature-box-xl mb-20">
@@ -178,23 +160,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Dermatology</h3>
                     <p>
-                      Promedix expertly manages scheduling, referrals,
-                      authorizations, and insurance verifications, significantly
-                      enhancing the overall patient experience. (Included with
-                      billing contract for convenience)
+                      Dermatology: Nurturing skin health, beauty, and confidence
+                      through expert care, innovative treatments, and
+                      dermatological excellence.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature3"
                 >
                   <div className="feature-box-xl mb-20">
@@ -210,23 +185,16 @@ function Specialities() {
                       DME (Durable Medical Equipment)
                     </h3>
                     <p>
-                      Elevate your practice's revenue potential with
-                      PremierMedix Billing Solutions. Streamline processes,
-                      maximize payments, and focus on patient care while we
-                      expertly manage the administrative workload.
+                      DME: Providing reliable, quality medical equipment
+                      solutions for enhanced mobility, independence, and
+                      improved quality of life.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -240,23 +208,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Endocrinology</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Endocrinology: A century of expertise in hormones,
+                      metabolism, and endocrine health, dedicated to holistic
+                      well-being and wellness.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -270,23 +231,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">ENT (Ear, Nose & Throat)</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      ENT: Caring for ear, nose, and throat health, offering
+                      specialized treatments, and improving lives through expert
+                      care.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -300,23 +254,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Family & General Practice</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Family & General Practice: Promoting health and wellness
+                      for all ages, emphasizing prevention, and providing
+                      comprehensive medical care.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -330,23 +277,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Gastroenterology</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Gastroenterology: Advancing digestive health, specialized
+                      care, and innovative treatments for improved patient
+                      well-being.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -360,23 +300,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Internal Medicine</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Internal Medicine: Fostering health from within, providing
+                      comprehensive care, and enhancing quality of life through
+                      medical expertise.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -392,23 +325,16 @@ function Specialities() {
                       Independent Diagnostic Facility
                     </h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Independent Diagnostic Facility: Delivering accurate
+                      diagnostics, early detection, and precise insights for
+                      better healthcare decisions.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -422,23 +348,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Neurology</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Neurology: Pioneering brain and nervous system care,
+                      improving lives through advanced treatments and expert
+                      neurological care.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -452,23 +371,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">OB – GYN</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      OB-GYN: Supporting women's health, pregnancy, and
+                      reproductive well-being through compassionate care and
+                      medical expertise.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -482,23 +394,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Oncology</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Oncology: Leading the fight against cancer, offering
+                      advanced treatments, and striving for a world without this
+                      devastating disease.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -512,23 +417,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Podiatry</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Podiatry: Caring for foot and ankle health, enhancing
+                      mobility, and ensuring a step towards a pain-free, active
+                      life.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -540,25 +438,18 @@ function Specialities() {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="ttr-title">Podiatry</h3>
+                    <h3 className="ttr-title">Psychiatry</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Psychiatry: Nurturing mental health, providing
+                      compassionate care, and offering hope and healing for
+                      individuals and families.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -572,23 +463,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Pain Management</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Pain Management: Alleviating suffering, enhancing
+                      function, and improving lives through personalized pain
+                      relief solutions.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -602,23 +486,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Pathology Lab</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Pathology Lab: Pioneering diagnostics, precise testing,
+                      and valuable insights for informed medical decisions and
+                      better health.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -632,23 +509,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Pediatrics</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Pediatrics: Safeguarding children's health, growth, and
+                      development, offering compassionate care and a brighter
+                      future.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -662,23 +532,16 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Pulmonary Disease</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Pulmonary Disease: Advancing lung health, providing expert
+                      care, and improving quality of life for those with
+                      respiratory conditions.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -692,23 +555,15 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Radiology</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Radiology: Illuminating health through precise imaging,
+                      diagnosis, and vital insights for better patient care.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -722,53 +577,17 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Urgent Care</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Urgent Care: Timely, accessible healthcare, offering
+                      immediate solutions for injuries and illnesses, ensuring
+                      well-being.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-4 col-md-6 mb-30">
                 <div
-                  style={{ height: "31.5rem" }}
-                  className="feature-container feature-bx2 feature1"
-                >
-                  <div className="feature-box-xl mb-20">
-                    <span className="icon-cell">
-                      <AiOutlineAudit
-                        size={70}
-                        style={{ color: "rgb(2, 2, 136)" }}
-                      />
-                    </span>
-                  </div>
-                  <div className="icon-content">
-                    <h3 className="ttr-title">Nephrology</h3>
-                    <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
-                    </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 mb-30">
-                <div
-                  style={{ height: "31.5rem" }}
+                  style={{ height: "26rem" }}
                   className="feature-container feature-bx2 feature1"
                 >
                   <div className="feature-box-xl mb-20">
@@ -782,17 +601,10 @@ function Specialities() {
                   <div className="icon-content">
                     <h3 className="ttr-title">Home Health</h3>
                     <p>
-                      Get a free Practice Audit to identify the shortcomings and
-                      gaps in your practice. Receive a comprehensive report,
-                      along with revenue-boosting suggestions to enhance your
-                      revenue.
+                      Home Health: Bringing care to your doorstep, enhancing
+                      comfort, and promoting recovery through skilled,
+                      compassionate professionals.
                     </p>
-                    <Link
-                      href={`/specialities`}
-                      className="btn btn-primary light"
-                    >
-                      View More
-                    </Link>
                   </div>
                 </div>
               </div>

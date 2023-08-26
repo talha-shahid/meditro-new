@@ -86,9 +86,9 @@ class AboutUs extends Component {
 
           <AboutSection />
 
-          <FeatureSection3 />
+          {/* <FeatureSection3 /> */}
 
-          <TeamSection />
+          {/* <TeamSection /> */}
 
           <TestimonialSection />
 

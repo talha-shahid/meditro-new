@@ -238,7 +238,7 @@ function Services() {
           </div>
         </section>
 
-        <FeatureSection3 />
+        {/* <FeatureSection3 /> */}
 
         {/* <TeamSection /> */}
 
