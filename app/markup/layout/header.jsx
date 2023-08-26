@@ -109,32 +109,32 @@ const Header = () => {
         {
           id: "serviceDetail",
           displayName: "Credentialing & Enrollment",
-          linkName: "service/credentialing-enrollment",
+          linkName: "services/credentialing-enrollment",
         },
         {
           id: "serviceDetail",
           displayName: "Medical Billing Services",
-          linkName: "service/medical-billing-services",
+          linkName: "services/medical-billing-services",
         },
         {
           id: "serviceDetail",
           displayName: "Medical Coding Services",
-          linkName: "service/medical-coding-services",
+          linkName: "services/medical-coding-services",
         },
         {
           id: "serviceDetail",
           displayName: "Front Office Services",
-          linkName: "service/front-office-services",
+          linkName: "services/front-office-services",
         },
         {
           id: "serviceDetail",
           displayName: "Patient Billing",
-          linkName: "service/patient-billing",
+          linkName: "services/patient-billing",
         },
         {
           id: "serviceDetail",
           displayName: "Practice Audit",
-          linkName: `service/practice-audit`,
+          linkName: `services/practice-audit`,
         },
         {
           id: "serviceDetail",
