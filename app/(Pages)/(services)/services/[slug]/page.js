@@ -258,38 +258,38 @@ function ServiceDetail({ params }) {
                   <div className="widget">
                     <ul className="service-menu">
                       <li className="active">
-                        <a href="/service-detail">
-                          <span>Engine Diagnostics</span>
+                        <a href="/services/credentialing-enrollment">
+                          <span>Credentialing & Enrollment</span>
                           <i className="fa fa-angle-right"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="/service-detail">
-                          <span>Lube Oil and Filters</span>
+                        <a href="/services/medical-billing-services">
+                          <span>Medical Billing Services</span>
                           <i className="fa fa-angle-right"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="/service-detail">
-                          <span>Belts and Hoses</span>
+                        <a href="/services/medical-coding-services">
+                          <span>Medical Coding Services</span>
                           <i className="fa fa-angle-right"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="/service-detail">
-                          <span>Air Conditioning</span>
+                        <a href="/services/front-office-services">
+                          <span>Front Office Services</span>
                           <i className="fa fa-angle-right"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="/service-detail">
-                          <span>Brake Repair</span>
+                        <a href="/services/patient-billing">
+                          <span>Patient Billing</span>
                           <i className="fa fa-angle-right"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="/service-detail">
-                          <span>Tire and Wheel Services</span>
+                        <a href="/services/practice-audit">
+                          <span>Practice Audit</span>
                           <i className="fa fa-angle-right"></i>
                         </a>
                       </li>
