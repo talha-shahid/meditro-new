@@ -18,10 +18,6 @@ import { TfiComments } from "react-icons/tfi";
 import { LiaFileInvoiceDollarSolid } from "react-icons/lia";
 import { AiOutlineAudit } from "react-icons/ai";
 
-import Services from "@/app/(Pages)/(services)/services/services.json";
-
-// import Services from "@/app/(Pages)/(services)/services/services.json";
-
 class ServicesSliderSection extends Component {
   render() {
     // const settings = {
@@ -318,7 +314,7 @@ class ServicesSliderSection extends Component {
                       ensuring financial stability.
                     </p>
                     <a
-                      href={`/services/${Services[0].slug}`}
+                      href={`/services/credentialing-enrollment`}
                       className="btn btn-primary light"
                     >
                       View More
@@ -344,7 +340,7 @@ class ServicesSliderSection extends Component {
                       claims, payment management, and financial reporting.
                     </p>
                     <a
-                      href={`/services/${services[1].slug}`}
+                      href={`/services/medical-billing-services`}
                       className="btn btn-primary light"
                     >
                       View More
@@ -370,7 +366,7 @@ class ServicesSliderSection extends Component {
                       exceptional accuracy and reliability.
                     </p>
                     <a
-                      href={`/services/${services[2].slug}`}
+                      href={`/services/medical-coding-services`}
                       className="btn btn-primary light"
                     >
                       View More
@@ -397,7 +393,7 @@ class ServicesSliderSection extends Component {
                       billing contract for convenience)
                     </p>
                     <a
-                      href={`/services/${services[3].slug}`}
+                      href={`/services/front-office-services`}
                       className="btn btn-primary light"
                     >
                       View More
@@ -424,7 +420,7 @@ class ServicesSliderSection extends Component {
                       expertly manage the administrative workload.
                     </p>
                     <a
-                      href={`/services/${services[4].slug}`}
+                      href={`/services/patient-billing`}
                       className="btn btn-primary light"
                     >
                       View More
@@ -451,7 +447,7 @@ class ServicesSliderSection extends Component {
                       revenue.
                     </p>
                     <a
-                      href={`/services/${services[5].slug}`}
+                      href={`/services/practice-audit`}
                       className="btn btn-primary light"
                     >
                       View More
