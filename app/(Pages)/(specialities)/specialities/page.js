@@ -76,7 +76,10 @@ function Specialities() {
           <div className="container">
             <div className="row">
               <div className="col-lg-4 col-md-6 mb-30">
-                <div className="feature-container feature-bx2 feature1">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
                   <div className="feature-box-xl mb-20">
                     <span className="icon-cell">
                       <GoChecklist
@@ -86,7 +89,7 @@ function Specialities() {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="ttr-title">Credentialing & Enrollment</h3>
+                    <h3 className="ttr-title">Anesthesiology</h3>
                     <p>
                       Promedix ensures affordable government and commercial
                       payer credentialing, expanding provider networks and
@@ -102,7 +105,10 @@ function Specialities() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
-                <div className="feature-container feature-bx2 feature2">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature2"
+                >
                   <div className="feature-box-xl mb-20">
                     <span className="icon-cell">
                       <CiMoneyCheck1
@@ -112,7 +118,7 @@ function Specialities() {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="ttr-title">Medical Billing Services</h3>
+                    <h3 className="ttr-title">Cardiology</h3>
                     <p>
                       Promedix offers complete range of medical billing
                       services, including scheduling, eligibility checks,
@@ -128,7 +134,10 @@ function Specialities() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
-                <div className="feature-container feature-bx2 feature3">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature3"
+                >
                   <div className="feature-box-xl mb-20">
                     <span className="icon-cell">
                       <PiDnaLight
@@ -138,7 +147,7 @@ function Specialities() {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="ttr-title">Medical Coding Services</h3>
+                    <h3 className="ttr-title">Chiropractics</h3>
                     <p>
                       Count on Promedix for precise medical coding, consistently
                       meeting industry standards and CMS guidelines with
@@ -154,7 +163,10 @@ function Specialities() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
-                <div className="feature-container feature-bx2 feature2">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature2"
+                >
                   <div className="feature-box-xl mb-20">
                     <span className="icon-cell">
                       <TfiComments
@@ -164,7 +176,7 @@ function Specialities() {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="ttr-title">Front Office Services</h3>
+                    <h3 className="ttr-title">Dermatology</h3>
                     <p>
                       Promedix expertly manages scheduling, referrals,
                       authorizations, and insurance verifications, significantly
@@ -181,7 +193,10 @@ function Specialities() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
-                <div className="feature-container feature-bx2 feature3">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature3"
+                >
                   <div className="feature-box-xl mb-20">
                     <span className="icon-cell">
                       <LiaFileInvoiceDollarSolid
@@ -191,7 +206,9 @@ function Specialities() {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="ttr-title">Patient Billing </h3>
+                    <h3 className="ttr-title">
+                      DME (Durable Medical Equipment)
+                    </h3>
                     <p>
                       Elevate your practice's revenue potential with
                       PremierMedix Billing Solutions. Streamline processes,
@@ -208,7 +225,10 @@ function Specialities() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-30">
-                <div className="feature-container feature-bx2 feature1">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
                   <div className="feature-box-xl mb-20">
                     <span className="icon-cell">
                       <AiOutlineAudit
@@ -218,7 +238,549 @@ function Specialities() {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="ttr-title">Practice Audit</h3>
+                    <h3 className="ttr-title">Endocrinology</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">ENT (Ear, Nose & Throat)</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Family & General Practice</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Gastroenterology</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Internal Medicine</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">
+                      Independent Diagnostic Facility
+                    </h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Neurology</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">OB – GYN</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Oncology</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Podiatry</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Podiatry</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Pain Management</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Pathology Lab</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Pediatrics</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Pulmonary Disease</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Radiology</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Urgent Care</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Nephrology</h3>
+                    <p>
+                      Get a free Practice Audit to identify the shortcomings and
+                      gaps in your practice. Receive a comprehensive report,
+                      along with revenue-boosting suggestions to enhance your
+                      revenue.
+                    </p>
+                    <Link
+                      href={`/specialities`}
+                      className="btn btn-primary light"
+                    >
+                      View More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 mb-30">
+                <div
+                  style={{ height: "31.5rem" }}
+                  className="feature-container feature-bx2 feature1"
+                >
+                  <div className="feature-box-xl mb-20">
+                    <span className="icon-cell">
+                      <AiOutlineAudit
+                        size={70}
+                        style={{ color: "rgb(2, 2, 136)" }}
+                      />
+                    </span>
+                  </div>
+                  <div className="icon-content">
+                    <h3 className="ttr-title">Home Health</h3>
                     <p>
                       Get a free Practice Audit to identify the shortcomings and
                       gaps in your practice. Receive a comprehensive report,
@@ -238,9 +800,9 @@ function Specialities() {
           </div>
         </section>
 
-        <FeatureSection3 />
+        {/* <FeatureSection3 /> */}
 
-        <TeamSection />
+        {/* <TeamSection /> */}
 
         <LatestNewsSection />
       </div>

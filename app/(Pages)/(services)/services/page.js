@@ -240,7 +240,7 @@ function Services() {
 
         <FeatureSection3 />
 
-        <TeamSection />
+        {/* <TeamSection /> */}
 
         <LatestNewsSection />
       </div>

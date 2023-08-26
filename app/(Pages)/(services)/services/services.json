@@ -1,5 +1,6 @@
 [
   {
+    "img": "https://www.pyramidsglobal.com/wp-content/uploads/2020/06/mcredential.png.webp",
     "slug": "credentialing-enrollment",
     "title": "Credentialing & Enrollment",
     "description": "Promedix ensures affordable government and commercial payer credentialing, expanding provider networks and ensuring financial stability.",
@@ -11,6 +12,7 @@
     }
   },
   {
+    "img": "https://irp-cdn.multiscreensite.com/1d47583f/Drcatalyst-september-23-01.jpg",
     "slug": "medical-billing-services",
     "title": "Medical Billing Services",
     "description": "Promedix offers complete range of medical billing services, including scheduling, eligibility checks, claims, payment management, and financial reporting.",
@@ -26,6 +28,7 @@
     }
   },
   {
+    "img": "https://www.hapusa.com/content/uploads/2020/09/1-Medical-Coding-e1601295404936.jpg",
     "slug": "medical-coding-services",
     "title": "Medical Coding Services",
     "description": "Count on Promedix for precise medical coding, consistently meeting industry standards and CMS guidelines with exceptional accuracy and reliability",
@@ -37,6 +40,7 @@
     }
   },
   {
+    "img": "https://envoy.com/wp-content/uploads/2021/09/Blog-Front-desk-safety-KL-082621-2-1200x630.png",
     "slug": "front-office-services",
     "title": "Front Office Services",
     "description": "Promedix expertly manages scheduling, referrals, authorizations, and insurance verifications, significantly enhancing the overall patient experience. (Included with billing contract for convenience)",
@@ -48,6 +52,7 @@
     }
   },
   {
+    "img": "https://media.licdn.com/dms/image/C4E05AQHfmAjQV0vDLg/feedshare-thumbnail_720_1280/0/1673547680689?e=2147483647&v=beta&t=KbVH_AHc5z9KuQB-EeeUevhV7HwRQ6UserDgxaTJ_VQ",
     "slug": "patient-billing",
     "title": "Patient Billing",
     "description": "Elevate your practice's revenue potential with PremierMedix Billing Solutions. Streamline processes, maximize payments, and focus on patient care while we expertly manage the administrative workload.",
@@ -59,6 +64,7 @@
     }
   },
   {
+    "img": "",
     "slug": "practice-audit",
     "title": "Practice Audit",
     "description": "Get a free Practice Audit to identify the shortcomings and gaps in your practice. Receive a comprehensive report, along with revenue-boosting suggestions to enhance your revenue.",

@@ -147,45 +147,45 @@ const Header = () => {
     {
       id: "Specialities",
       name: "Specialities",
-      linkName: "#",
+      linkName: "specialities",
 
-      subItems: [
-        {
-          id: "aboutus",
-          displayName: "Anesthesiology",
-          linkName: "specialities/anesthesiology",
-        },
-        {
-          id: "team",
-          displayName: "Cardiology",
-          linkName: "specialities/cardiology",
-        },
-        {
-          id: "faq",
-          displayName: "Chiropractics",
-          linkName: "specialities/chiropractics",
-        },
-        {
-          id: "booking",
-          displayName: "Dermatology",
-          linkName: "specialities/dermatology",
-        },
-        {
-          id: "error",
-          displayName: "DME (Durable Medical Equipment)",
-          linkName: "specialities/dme",
-        },
-        {
-          id: "formLogin",
-          displayName: "Endocrinology",
-          linkName: "specialities/endocrinology",
-        },
-        {
-          id: "formLogin",
-          displayName: "Others",
-          linkName: "specialities",
-        },
-      ],
+      // subItems: [
+      //   {
+      //     id: "aboutus",
+      //     displayName: "Anesthesiology",
+      //     linkName: "specialities/anesthesiology",
+      //   },
+      //   {
+      //     id: "team",
+      //     displayName: "Cardiology",
+      //     linkName: "specialities/cardiology",
+      //   },
+      //   {
+      //     id: "faq",
+      //     displayName: "Chiropractics",
+      //     linkName: "specialities/chiropractics",
+      //   },
+      //   {
+      //     id: "booking",
+      //     displayName: "Dermatology",
+      //     linkName: "specialities/dermatology",
+      //   },
+      //   {
+      //     id: "error",
+      //     displayName: "DME (Durable Medical Equipment)",
+      //     linkName: "specialities/dme",
+      //   },
+      //   {
+      //     id: "formLogin",
+      //     displayName: "Endocrinology",
+      //     linkName: "specialities/endocrinology",
+      //   },
+      //   {
+      //     id: "formLogin",
+      //     displayName: "Others",
+      //     linkName: "specialities",
+      //   },
+      // ],
     },
     {
       id: "resources",
